@@ -11,7 +11,7 @@ const Card: React.FC<CardProps> = ({
   image,
   serviceLink,
 }) => (
-  <div className='flex items-center justify-between px-4 py-2 m-4 bg-white min-w-screen-lg shadow-primary rounded-3xl'>
+  <div className='flex items-center justify-between px-4 py-2 m-4 bg-white transition duration-500 ease-out hover:shadow-cardHover min-w-screen-lg shadow-card rounded-3xl'>
     <a
       className='flex items-center justify-center w-24 h-24 bg-white rounded-xl'
       href={serviceLink}
