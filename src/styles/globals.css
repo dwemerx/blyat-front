@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('src/fonts/OpenSans-Light.ttf');
+  src: url('src/fonts/OpenSans-Bold.ttf');
+  src: url('src/fonts/OpenSans-SemiBold.ttf');
+  src: url('src/fonts/OpenSans-ExtraBold.ttf');
+  src: url('src/fonts/OpenSans-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
