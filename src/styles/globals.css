@@ -25,3 +25,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.min-w-screen-lg {
+  min-width: 1024px;
+}
