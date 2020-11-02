@@ -1,8 +1,8 @@
 import Card from 'src/components/Card';
 
 const Home: React.FC = () => (
-  <div className='max-h-screen p-4 overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
-    <div className='w-full overflow-hidden grid justify-items-center'>
+  <div className='h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
+    <div className='p-4 overflow-hidden justify-items-center grid'>
       <Card
         title='FreshRSS'
         image={require('src/images/freshrss.png')}
