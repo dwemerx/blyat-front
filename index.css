@@ -3559,6 +3559,10 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
+.bg-timeline {
+  background-image: url('src/images/timeline.svg');
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -20321,10 +20325,6 @@ video {
   grid-template-columns: none;
 }
 
-.grid-cols-cards {
-  grid-template-columns: 1fr minmax(10fr, 1024px) 1fr;
-}
-
 .auto-cols-auto {
   grid-auto-columns: auto;
 }
@@ -25713,6 +25713,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .sm\:bg-timeline {
+    background-image: url('src/images/timeline.svg');
   }
 
   .sm\:from-transparent {
@@ -42477,10 +42481,6 @@ video {
     grid-template-columns: none;
   }
 
-  .sm\:grid-cols-cards {
-    grid-template-columns: 1fr minmax(10fr, 1024px) 1fr;
-  }
-
   .sm\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -47804,6 +47804,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .md\:bg-timeline {
+    background-image: url('src/images/timeline.svg');
   }
 
   .md\:from-transparent {
@@ -64568,10 +64572,6 @@ video {
     grid-template-columns: none;
   }
 
-  .md\:grid-cols-cards {
-    grid-template-columns: 1fr minmax(10fr, 1024px) 1fr;
-  }
-
   .md\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -69895,6 +69895,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .lg\:bg-timeline {
+    background-image: url('src/images/timeline.svg');
   }
 
   .lg\:from-transparent {
@@ -86659,10 +86663,6 @@ video {
     grid-template-columns: none;
   }
 
-  .lg\:grid-cols-cards {
-    grid-template-columns: 1fr minmax(10fr, 1024px) 1fr;
-  }
-
   .lg\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -91986,6 +91986,10 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .xl\:bg-timeline {
+    background-image: url('src/images/timeline.svg');
   }
 
   .xl\:from-transparent {
@@ -108748,10 +108752,6 @@ video {
 
   .xl\:grid-cols-none {
     grid-template-columns: none;
-  }
-
-  .xl\:grid-cols-cards {
-    grid-template-columns: 1fr minmax(10fr, 1024px) 1fr;
   }
 
   .xl\:auto-cols-auto {

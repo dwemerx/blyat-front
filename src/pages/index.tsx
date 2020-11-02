@@ -2,6 +2,9 @@ import Card from 'src/components/Card';
 
 const Home: React.FC = () => (
   <div className='h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
+    <div className='flex items-center justify-around h-screen mx-16 overflow-hidden bg-center bg-no-repeat bg-contain bg-timeline'>
+      <div className='text-6xl text-gray-800'>Front</div>
+    </div>
     <div className='p-4 overflow-hidden justify-items-center grid'>
       <Card
         title='FreshRSS'
