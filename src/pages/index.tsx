@@ -1,20 +1,8 @@
 import Card from 'src/components/Card';
+import Layout from 'src/components/Layout';
 
 const Home: React.FC = () => (
-  <div className='h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
-    <header className='flex items-center justify-between px-8 py-4'>
-      <a className='text-3xl text-gray-800' href='https://blyat.org'>
-        Blyat
-      </a>
-      <div className='flex'>
-        <a className='mr-4 hover:text-gray-800' href='#services'>
-          Services
-        </a>
-        <a className='hover:text-gray-800' href='#phacyou'>
-          FAQ
-        </a>
-      </div>
-    </header>
+  <Layout>
     <div className='flex items-center justify-around h-screen mx-16 overflow-hidden bg-center bg-no-repeat bg-contain bg-timeline'>
       <div className='text-6xl text-gray-800'>Front</div>
     </div>
@@ -59,7 +47,7 @@ const Home: React.FC = () => (
         description='RSS Aggregator'
       />
     </div>
-  </div>
+  </Layout>
 );
 
 export default Home;
