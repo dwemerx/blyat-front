@@ -18,9 +18,9 @@ module.exports = {
       backgroundImage: () => ({
         timeline: "url('src/images/timeline.svg')",
       }),
-    },
-    fontFamily: {
-      body: ['Open Sans'],
+      fontFamily: {
+        body: ['Open Sans'],
+      },
     },
   },
   variants: {},

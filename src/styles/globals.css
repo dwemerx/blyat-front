@@ -26,6 +26,18 @@ a {
   text-decoration: none;
 }
 
-.min-w-screen-lg {
-  min-width: 1024px;
+.front-circle-1 {
+  clip-path: circle(65% at -10% 5%);
+}
+
+.front-circle-2 {
+  clip-path: circle(3% at 90% 10%);
+}
+
+.front-circle-3 {
+  clip-path: circle(8% at 80% 50%);
+}
+
+.h-x2 {
+  height: 200%;
 }
