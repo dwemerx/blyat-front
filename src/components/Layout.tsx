@@ -1,3 +1,5 @@
+import { GitHub } from 'react-feather';
+
 const Layout: React.FC = ({ children }) => (
   <div className='relative h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
     <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4'>
@@ -23,7 +25,11 @@ const Layout: React.FC = ({ children }) => (
       </div>
     </header>
     {children}
-    <footer className='p-4'>TODO</footer>
+    <footer className='flex justify-center p-4'>
+      <a className='text-red-100' href='https://blyat.org' rel='noreferrer'>
+        <GitHub color='#333' />
+      </a>
+    </footer>
   </div>
 );
 

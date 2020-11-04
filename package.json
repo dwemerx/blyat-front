@@ -20,7 +20,8 @@
     "next": "latest",
     "next-images": "^1.6.2",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-feather": "^2.0.8"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.5",
