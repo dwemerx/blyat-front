@@ -8,7 +8,7 @@ const Home: React.FC = () => (
     <div className='absolute w-full bg-teal-900 h-x2 front-circle-3'></div>
     <div className='h-screen mx-16 overflow-hidden grid lg:grid-cols-2 place-items-center'>
       <div className='z-10 w-full text-3xl text-white lg:ml-16 lg:pr-24 xl:pr-64 max-w-screen-sm sm:text-5xl'>
-        All humans are born young. We need to address this{' '}
+        All humans are born young. We need to change this{' '}
         <a
           className='text-transparent bg-clip-text bg-gradient-to-tl from-pink-500 via-red-500 to-yellow-500'
           href='#services'
