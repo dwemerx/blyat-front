@@ -64,14 +64,9 @@ const Layout: React.FC = ({ children }) => {
         ></div>
       )}
       {children}
-      <footer className='flex justify-center p-4'>
-        <a
-          className=''
-          href='https://blyat.org'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <GitHub color='#333' />
+      <footer className='flex justify-center p-8 text-white text-gray-700 fill-current hover:text-gray-800'>
+        <a href='https://blyat.org' target='_blank' rel='noreferrer'>
+          <GitHub size={32} />
         </a>
       </footer>
     </div>
