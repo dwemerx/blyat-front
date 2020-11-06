@@ -23,7 +23,7 @@ const Layout: React.FC = ({ children }) => {
         </button>
       </header>
       <div
-        className={`fixed right-0 z-20 w-full h-screen bg-white md:w-64 shadow-card 
+        className={`fixed right-0 z-30 w-full h-screen bg-white md:w-64 shadow-card 
       transform easy-out duration-700 ${
         isMenuVisible ? 'translate-x-full' : null
       }`}
