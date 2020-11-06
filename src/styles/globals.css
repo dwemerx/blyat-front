@@ -30,6 +30,10 @@ a {
   clip-path: circle(65% at -10% 5%);
 }
 
+.front-circle-1-lg {
+  clip-path: circle(55% at -10% 5%);
+}
+
 .front-circle-2 {
   clip-path: circle(3% at 90% 10%);
 }

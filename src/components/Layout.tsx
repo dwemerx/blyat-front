@@ -5,7 +5,7 @@ const Layout: React.FC = ({ children }) => {
   const [isMenuVisible, toggleMenu] = useState(true);
 
   return (
-    <div className='relative h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
+    <div className='relative w-screen h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
       <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4 overflow-hidden'>
         <a
           className='font-sans text-4xl font-semibold tracking-widest text-white uppercase sm:text-6xl'
