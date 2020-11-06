@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GitHub, Menu, X } from 'react-feather';
 
 const Layout: React.FC = ({ children }) => {
-  const [isMenuVisible, toggleMenu] = useState(false);
+  const [isMenuVisible, toggleMenu] = useState(true);
 
   return (
     <div className='relative h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
@@ -61,7 +61,7 @@ const Layout: React.FC = ({ children }) => {
           className='fixed z-20 w-screen h-screen'
           aria-hidden='true'
           onClick={() => toggleMenu(!isMenuVisible)}
-        ></div>
+        />
       )}
       {children}
       <footer className='flex justify-center p-8 text-white text-gray-700 fill-current hover:text-gray-800'>

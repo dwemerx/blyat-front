@@ -20,7 +20,7 @@ const Home: React.FC = () => (
       <div className='relative z-10 hidden mr-16 bg-teal-200 rounded-full lg:block max-w-screen-sm'>
         <img
           className='absolute object-contain p-16'
-          src={require('src/images/timeline.svg')}
+          src='/images/timeline.svg'
           alt='Timeline'
         />
         <div className='p-64'></div>
@@ -32,37 +32,37 @@ const Home: React.FC = () => (
     >
       <Card
         title='FreshRSS'
-        image={require('src/images/freshrss.png')}
+        image={'/images/freshrss.png'}
         serviceLink='https://freshrss.blyat.org'
         description='A Powerfull RSS Reader'
       />
       <Card
         title='RSSHub'
-        image={require('src/images/rsshub.png')}
+        image={'/images/rsshub.png'}
         serviceLink='https://rsshub.blyat.org'
         description='RSS Aggregator'
       />
       <Card
         title='RSSBridge'
-        image={require('src/images/rssbridge.png')}
+        image={'/images/rssbridge.png'}
         serviceLink='https://rssbridge.blyat.org'
         description='RSS Aggregator'
       />
       <Card
         title='Reddit Top RSS'
-        image={require('src/images/reddit.png')}
+        image={'/images/reddit.png'}
         serviceLink='https://rtr.blyat.org'
         description='RSS Aggregator'
       />
       <Card
         title='MORSS'
-        image={require('src/images/rss.png')}
+        image={'/images/rss.png'}
         serviceLink='https://morss.blyat.org'
         description='RSS Aggregator'
       />
       <Card
         title='HN RSS'
-        image={require('src/images/hnrss.png')}
+        image={'/images/hnrss.png'}
         serviceLink='https://hnrss.org'
         description='RSS Aggregator'
       />

@@ -15,9 +15,6 @@ module.exports = {
         cardHover:
           '0 0 15px -3px rgba(0, 0, 0, 0.5), 0 0 6px -2px rgba(0, 0, 0, 0.25)',
       },
-      backgroundImage: () => ({
-        timeline: "url('src/images/timeline.svg')",
-      }),
       fontFamily: {
         body: ['Open Sans'],
       },

@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "next": "latest",
-    "next-images": "^1.6.2",
     "react": "latest",
     "react-dom": "latest",
     "react-feather": "^2.0.8"

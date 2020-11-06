@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface CardProps {
   title: string;
   description: string;
@@ -18,8 +20,9 @@ const Card: React.FC<CardProps> = ({
       target='_blank'
       rel='noreferrer'
     >
-      <img
-        className='w-16 h-16'
+      <Image
+        width={90}
+        height={90}
         src={image}
         alt={`${title} Logo`}
         title={title}

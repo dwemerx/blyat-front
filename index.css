@@ -3559,10 +3559,6 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
-.bg-timeline {
-  background-image: url('src/images/timeline.svg');
-}
-
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -25727,10 +25723,6 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .sm\:bg-timeline {
-    background-image: url('src/images/timeline.svg');
-  }
-
   .sm\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -47828,10 +47820,6 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
-  }
-
-  .md\:bg-timeline {
-    background-image: url('src/images/timeline.svg');
   }
 
   .md\:from-transparent {
@@ -69933,10 +69921,6 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .lg\:bg-timeline {
-    background-image: url('src/images/timeline.svg');
-  }
-
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -92034,10 +92018,6 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
-  }
-
-  .xl\:bg-timeline {
-    background-image: url('src/images/timeline.svg');
   }
 
   .xl\:from-transparent {
