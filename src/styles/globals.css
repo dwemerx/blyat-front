@@ -26,12 +26,6 @@ a {
   text-decoration: none;
 }
 
-.menu-circle {
-  right: -50%;
-  width: 1000px;
-  height: 1000px;
-}
-
 .front-circle-1 {
   clip-path: circle(65% at -10% 5%);
 }
