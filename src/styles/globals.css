@@ -27,11 +27,11 @@ a {
 }
 
 .front-circle-1 {
-  clip-path: circle(65% at -10% 5%);
+  clip-path: circle(60% at -10% 5%);
 }
 
 .front-circle-1-lg {
-  clip-path: circle(55% at -10% 5%);
+  clip-path: circle(42% at -10% 5%);
 }
 
 .front-circle-2 {
