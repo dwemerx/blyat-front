@@ -26,7 +26,7 @@ const Front: React.FC = () => {
         <div className='relative z-10 hidden mr-16 bg-teal-200 rounded-full lg:block max-w-screen-sm'>
           <img
             className='absolute object-contain p-16'
-            src='/images/timeline.svg'
+            src='/images/woman.svg'
             alt='Timeline'
           />
           <div className='p-64'></div>
