@@ -18,10 +18,10 @@ const Layout: React.FC = ({ children }) => {
         />
         <meta
           name='description'
-          content="A service provider you shouldn't trust"
+          content="A service provider you probably shouldn't trust"
         />
         <meta name='author' content='dwemerx' />
-        <link rel='shortcut icon' type='image/ico' href='public/favicon.ico' />
+        <link rel='shortcut icon' type='image/ico' href='/favicon.ico' />
       </Head>
       <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4 overflow-hidden'>
         <a
