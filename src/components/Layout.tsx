@@ -8,13 +8,13 @@ const Layout: React.FC = ({ children }) => {
     <div className='relative w-screen h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
       <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4 overflow-hidden'>
         <a
-          className='font-sans text-4xl font-semibold tracking-widest text-white uppercase sm:text-6xl'
+          className='font-sans text-4xl font-semibold tracking-widest text-white uppercase sm:text-6xl focus:outline-none focus:shadow-outline '
           href='https://blyat.org'
         >
           Blyat
         </a>
         <button
-          className='text-white fill-current lg:text-gray-700 lg:hover:text-gray-800 lg:pb-8'
+          className='text-white fill-current lg:text-gray-700 lg:hover:text-gray-800 lg:pb-8 focus:outline-none focus:shadow-outline '
           type='button'
           tabIndex={0}
           onClick={() => toggleMenu(!isMenuVisible)}
@@ -29,7 +29,7 @@ const Layout: React.FC = ({ children }) => {
       }`}
       >
         <button
-          className='absolute top-0 right-0 p-8 text-gray-700 fill-current hover:text-gray-800 lg:pb-8'
+          className='absolute top-0 right-0 p-8 text-gray-700 fill-current focus:outline-none focus:shadow-outline hover:text-gray-800 lg:pb-8'
           type='button'
           tabIndex={0}
           onClick={() => toggleMenu(!isMenuVisible)}
@@ -39,7 +39,15 @@ const Layout: React.FC = ({ children }) => {
         </button>
         <div className='h-full py-64 text-3xl text-gray-700 grid place-items-center'>
           <a
-            className='hover:text-gray-800'
+            className='hover:text-gray-800 focus:outline-none focus:shadow-outline '
+            href='#testimonials'
+            onClick={() => toggleMenu(!isMenuVisible)}
+            onKeyUp={() => toggleMenu(!isMenuVisible)}
+          >
+            Testimonials
+          </a>
+          <a
+            className='hover:text-gray-800 focus:outline-none focus:shadow-outline '
             href='#services'
             onClick={() => toggleMenu(!isMenuVisible)}
             onKeyUp={() => toggleMenu(!isMenuVisible)}
@@ -47,7 +55,7 @@ const Layout: React.FC = ({ children }) => {
             Services
           </a>
           <a
-            className='hover:text-gray-800'
+            className='hover:text-gray-800 focus:outline-none focus:shadow-outline '
             href='#phacyou'
             onClick={() => toggleMenu(!isMenuVisible)}
             onKeyUp={() => toggleMenu(!isMenuVisible)}
@@ -58,14 +66,19 @@ const Layout: React.FC = ({ children }) => {
       </div>
       {!isMenuVisible && (
         <div
-          className='fixed z-20 w-screen h-screen'
+          className='fixed z-20 w-screen h-screen bg-black transform duration-700 easy-out bg-opacity-25'
           aria-hidden='true'
           onClick={() => toggleMenu(!isMenuVisible)}
         />
       )}
       {children}
       <footer className='flex justify-center p-8 text-white text-gray-700 fill-current hover:text-gray-800'>
-        <a href='https://blyat.org' target='_blank' rel='noreferrer'>
+        <a
+          href='https://blyat.org'
+          target='_blank'
+          rel='noreferrer'
+          className='focus:outline-none focus:shadow-outline '
+        >
           <GitHub size={32} />
         </a>
       </footer>

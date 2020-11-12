@@ -1,10 +1,12 @@
 import Card from 'src/components/Card';
 import Front from 'src/components/Front';
 import Layout from 'src/components/Layout';
+import Testimonials from 'src/components/Testimonials';
 
 const Home: React.FC = () => (
   <Layout>
     <Front />
+    <Testimonials />
     <div
       id='services'
       className='p-4 overflow-hidden justify-items-center grid'

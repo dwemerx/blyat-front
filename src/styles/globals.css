@@ -39,9 +39,13 @@ a {
 }
 
 .front-circle-3 {
-  clip-path: circle(8% at 80% 50%);
+  clip-path: circle(8% at 100% 40%);
 }
 
 .h-x2 {
   height: 200%;
+}
+
+.h-600px {
+  height: 600px;
 }

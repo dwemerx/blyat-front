@@ -17,6 +17,7 @@
     "fix:eslint": "yarn lint:eslint --fix"
   },
   "dependencies": {
+    "@types/faker": "^5.1.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",

@@ -22290,6 +22290,334 @@ video {
   --transform-translate-y: 100%;
 }
 
+.active\:translate-x-0:active {
+  --transform-translate-x: 0;
+}
+
+.active\:translate-x-1:active {
+  --transform-translate-x: 0.25rem;
+}
+
+.active\:translate-x-2:active {
+  --transform-translate-x: 0.5rem;
+}
+
+.active\:translate-x-3:active {
+  --transform-translate-x: 0.75rem;
+}
+
+.active\:translate-x-4:active {
+  --transform-translate-x: 1rem;
+}
+
+.active\:translate-x-5:active {
+  --transform-translate-x: 1.25rem;
+}
+
+.active\:translate-x-6:active {
+  --transform-translate-x: 1.5rem;
+}
+
+.active\:translate-x-8:active {
+  --transform-translate-x: 2rem;
+}
+
+.active\:translate-x-10:active {
+  --transform-translate-x: 2.5rem;
+}
+
+.active\:translate-x-12:active {
+  --transform-translate-x: 3rem;
+}
+
+.active\:translate-x-16:active {
+  --transform-translate-x: 4rem;
+}
+
+.active\:translate-x-20:active {
+  --transform-translate-x: 5rem;
+}
+
+.active\:translate-x-24:active {
+  --transform-translate-x: 6rem;
+}
+
+.active\:translate-x-32:active {
+  --transform-translate-x: 8rem;
+}
+
+.active\:translate-x-40:active {
+  --transform-translate-x: 10rem;
+}
+
+.active\:translate-x-48:active {
+  --transform-translate-x: 12rem;
+}
+
+.active\:translate-x-56:active {
+  --transform-translate-x: 14rem;
+}
+
+.active\:translate-x-64:active {
+  --transform-translate-x: 16rem;
+}
+
+.active\:translate-x-px:active {
+  --transform-translate-x: 1px;
+}
+
+.active\:-translate-x-1:active {
+  --transform-translate-x: -0.25rem;
+}
+
+.active\:-translate-x-2:active {
+  --transform-translate-x: -0.5rem;
+}
+
+.active\:-translate-x-3:active {
+  --transform-translate-x: -0.75rem;
+}
+
+.active\:-translate-x-4:active {
+  --transform-translate-x: -1rem;
+}
+
+.active\:-translate-x-5:active {
+  --transform-translate-x: -1.25rem;
+}
+
+.active\:-translate-x-6:active {
+  --transform-translate-x: -1.5rem;
+}
+
+.active\:-translate-x-8:active {
+  --transform-translate-x: -2rem;
+}
+
+.active\:-translate-x-10:active {
+  --transform-translate-x: -2.5rem;
+}
+
+.active\:-translate-x-12:active {
+  --transform-translate-x: -3rem;
+}
+
+.active\:-translate-x-16:active {
+  --transform-translate-x: -4rem;
+}
+
+.active\:-translate-x-20:active {
+  --transform-translate-x: -5rem;
+}
+
+.active\:-translate-x-24:active {
+  --transform-translate-x: -6rem;
+}
+
+.active\:-translate-x-32:active {
+  --transform-translate-x: -8rem;
+}
+
+.active\:-translate-x-40:active {
+  --transform-translate-x: -10rem;
+}
+
+.active\:-translate-x-48:active {
+  --transform-translate-x: -12rem;
+}
+
+.active\:-translate-x-56:active {
+  --transform-translate-x: -14rem;
+}
+
+.active\:-translate-x-64:active {
+  --transform-translate-x: -16rem;
+}
+
+.active\:-translate-x-px:active {
+  --transform-translate-x: -1px;
+}
+
+.active\:-translate-x-full:active {
+  --transform-translate-x: -100%;
+}
+
+.active\:-translate-x-1\/2:active {
+  --transform-translate-x: -50%;
+}
+
+.active\:translate-x-1\/2:active {
+  --transform-translate-x: 50%;
+}
+
+.active\:translate-x-full:active {
+  --transform-translate-x: 100%;
+}
+
+.active\:translate-y-0:active {
+  --transform-translate-y: 0;
+}
+
+.active\:translate-y-1:active {
+  --transform-translate-y: 0.25rem;
+}
+
+.active\:translate-y-2:active {
+  --transform-translate-y: 0.5rem;
+}
+
+.active\:translate-y-3:active {
+  --transform-translate-y: 0.75rem;
+}
+
+.active\:translate-y-4:active {
+  --transform-translate-y: 1rem;
+}
+
+.active\:translate-y-5:active {
+  --transform-translate-y: 1.25rem;
+}
+
+.active\:translate-y-6:active {
+  --transform-translate-y: 1.5rem;
+}
+
+.active\:translate-y-8:active {
+  --transform-translate-y: 2rem;
+}
+
+.active\:translate-y-10:active {
+  --transform-translate-y: 2.5rem;
+}
+
+.active\:translate-y-12:active {
+  --transform-translate-y: 3rem;
+}
+
+.active\:translate-y-16:active {
+  --transform-translate-y: 4rem;
+}
+
+.active\:translate-y-20:active {
+  --transform-translate-y: 5rem;
+}
+
+.active\:translate-y-24:active {
+  --transform-translate-y: 6rem;
+}
+
+.active\:translate-y-32:active {
+  --transform-translate-y: 8rem;
+}
+
+.active\:translate-y-40:active {
+  --transform-translate-y: 10rem;
+}
+
+.active\:translate-y-48:active {
+  --transform-translate-y: 12rem;
+}
+
+.active\:translate-y-56:active {
+  --transform-translate-y: 14rem;
+}
+
+.active\:translate-y-64:active {
+  --transform-translate-y: 16rem;
+}
+
+.active\:translate-y-px:active {
+  --transform-translate-y: 1px;
+}
+
+.active\:-translate-y-1:active {
+  --transform-translate-y: -0.25rem;
+}
+
+.active\:-translate-y-2:active {
+  --transform-translate-y: -0.5rem;
+}
+
+.active\:-translate-y-3:active {
+  --transform-translate-y: -0.75rem;
+}
+
+.active\:-translate-y-4:active {
+  --transform-translate-y: -1rem;
+}
+
+.active\:-translate-y-5:active {
+  --transform-translate-y: -1.25rem;
+}
+
+.active\:-translate-y-6:active {
+  --transform-translate-y: -1.5rem;
+}
+
+.active\:-translate-y-8:active {
+  --transform-translate-y: -2rem;
+}
+
+.active\:-translate-y-10:active {
+  --transform-translate-y: -2.5rem;
+}
+
+.active\:-translate-y-12:active {
+  --transform-translate-y: -3rem;
+}
+
+.active\:-translate-y-16:active {
+  --transform-translate-y: -4rem;
+}
+
+.active\:-translate-y-20:active {
+  --transform-translate-y: -5rem;
+}
+
+.active\:-translate-y-24:active {
+  --transform-translate-y: -6rem;
+}
+
+.active\:-translate-y-32:active {
+  --transform-translate-y: -8rem;
+}
+
+.active\:-translate-y-40:active {
+  --transform-translate-y: -10rem;
+}
+
+.active\:-translate-y-48:active {
+  --transform-translate-y: -12rem;
+}
+
+.active\:-translate-y-56:active {
+  --transform-translate-y: -14rem;
+}
+
+.active\:-translate-y-64:active {
+  --transform-translate-y: -16rem;
+}
+
+.active\:-translate-y-px:active {
+  --transform-translate-y: -1px;
+}
+
+.active\:-translate-y-full:active {
+  --transform-translate-y: -100%;
+}
+
+.active\:-translate-y-1\/2:active {
+  --transform-translate-y: -50%;
+}
+
+.active\:translate-y-1\/2:active {
+  --transform-translate-y: 50%;
+}
+
+.active\:translate-y-full:active {
+  --transform-translate-y: 100%;
+}
+
 .skew-x-0 {
   --transform-skew-x: 0;
 }
@@ -44454,6 +44782,334 @@ video {
     --transform-translate-y: 100%;
   }
 
+  .sm\:active\:translate-x-0:active {
+    --transform-translate-x: 0;
+  }
+
+  .sm\:active\:translate-x-1:active {
+    --transform-translate-x: 0.25rem;
+  }
+
+  .sm\:active\:translate-x-2:active {
+    --transform-translate-x: 0.5rem;
+  }
+
+  .sm\:active\:translate-x-3:active {
+    --transform-translate-x: 0.75rem;
+  }
+
+  .sm\:active\:translate-x-4:active {
+    --transform-translate-x: 1rem;
+  }
+
+  .sm\:active\:translate-x-5:active {
+    --transform-translate-x: 1.25rem;
+  }
+
+  .sm\:active\:translate-x-6:active {
+    --transform-translate-x: 1.5rem;
+  }
+
+  .sm\:active\:translate-x-8:active {
+    --transform-translate-x: 2rem;
+  }
+
+  .sm\:active\:translate-x-10:active {
+    --transform-translate-x: 2.5rem;
+  }
+
+  .sm\:active\:translate-x-12:active {
+    --transform-translate-x: 3rem;
+  }
+
+  .sm\:active\:translate-x-16:active {
+    --transform-translate-x: 4rem;
+  }
+
+  .sm\:active\:translate-x-20:active {
+    --transform-translate-x: 5rem;
+  }
+
+  .sm\:active\:translate-x-24:active {
+    --transform-translate-x: 6rem;
+  }
+
+  .sm\:active\:translate-x-32:active {
+    --transform-translate-x: 8rem;
+  }
+
+  .sm\:active\:translate-x-40:active {
+    --transform-translate-x: 10rem;
+  }
+
+  .sm\:active\:translate-x-48:active {
+    --transform-translate-x: 12rem;
+  }
+
+  .sm\:active\:translate-x-56:active {
+    --transform-translate-x: 14rem;
+  }
+
+  .sm\:active\:translate-x-64:active {
+    --transform-translate-x: 16rem;
+  }
+
+  .sm\:active\:translate-x-px:active {
+    --transform-translate-x: 1px;
+  }
+
+  .sm\:active\:-translate-x-1:active {
+    --transform-translate-x: -0.25rem;
+  }
+
+  .sm\:active\:-translate-x-2:active {
+    --transform-translate-x: -0.5rem;
+  }
+
+  .sm\:active\:-translate-x-3:active {
+    --transform-translate-x: -0.75rem;
+  }
+
+  .sm\:active\:-translate-x-4:active {
+    --transform-translate-x: -1rem;
+  }
+
+  .sm\:active\:-translate-x-5:active {
+    --transform-translate-x: -1.25rem;
+  }
+
+  .sm\:active\:-translate-x-6:active {
+    --transform-translate-x: -1.5rem;
+  }
+
+  .sm\:active\:-translate-x-8:active {
+    --transform-translate-x: -2rem;
+  }
+
+  .sm\:active\:-translate-x-10:active {
+    --transform-translate-x: -2.5rem;
+  }
+
+  .sm\:active\:-translate-x-12:active {
+    --transform-translate-x: -3rem;
+  }
+
+  .sm\:active\:-translate-x-16:active {
+    --transform-translate-x: -4rem;
+  }
+
+  .sm\:active\:-translate-x-20:active {
+    --transform-translate-x: -5rem;
+  }
+
+  .sm\:active\:-translate-x-24:active {
+    --transform-translate-x: -6rem;
+  }
+
+  .sm\:active\:-translate-x-32:active {
+    --transform-translate-x: -8rem;
+  }
+
+  .sm\:active\:-translate-x-40:active {
+    --transform-translate-x: -10rem;
+  }
+
+  .sm\:active\:-translate-x-48:active {
+    --transform-translate-x: -12rem;
+  }
+
+  .sm\:active\:-translate-x-56:active {
+    --transform-translate-x: -14rem;
+  }
+
+  .sm\:active\:-translate-x-64:active {
+    --transform-translate-x: -16rem;
+  }
+
+  .sm\:active\:-translate-x-px:active {
+    --transform-translate-x: -1px;
+  }
+
+  .sm\:active\:-translate-x-full:active {
+    --transform-translate-x: -100%;
+  }
+
+  .sm\:active\:-translate-x-1\/2:active {
+    --transform-translate-x: -50%;
+  }
+
+  .sm\:active\:translate-x-1\/2:active {
+    --transform-translate-x: 50%;
+  }
+
+  .sm\:active\:translate-x-full:active {
+    --transform-translate-x: 100%;
+  }
+
+  .sm\:active\:translate-y-0:active {
+    --transform-translate-y: 0;
+  }
+
+  .sm\:active\:translate-y-1:active {
+    --transform-translate-y: 0.25rem;
+  }
+
+  .sm\:active\:translate-y-2:active {
+    --transform-translate-y: 0.5rem;
+  }
+
+  .sm\:active\:translate-y-3:active {
+    --transform-translate-y: 0.75rem;
+  }
+
+  .sm\:active\:translate-y-4:active {
+    --transform-translate-y: 1rem;
+  }
+
+  .sm\:active\:translate-y-5:active {
+    --transform-translate-y: 1.25rem;
+  }
+
+  .sm\:active\:translate-y-6:active {
+    --transform-translate-y: 1.5rem;
+  }
+
+  .sm\:active\:translate-y-8:active {
+    --transform-translate-y: 2rem;
+  }
+
+  .sm\:active\:translate-y-10:active {
+    --transform-translate-y: 2.5rem;
+  }
+
+  .sm\:active\:translate-y-12:active {
+    --transform-translate-y: 3rem;
+  }
+
+  .sm\:active\:translate-y-16:active {
+    --transform-translate-y: 4rem;
+  }
+
+  .sm\:active\:translate-y-20:active {
+    --transform-translate-y: 5rem;
+  }
+
+  .sm\:active\:translate-y-24:active {
+    --transform-translate-y: 6rem;
+  }
+
+  .sm\:active\:translate-y-32:active {
+    --transform-translate-y: 8rem;
+  }
+
+  .sm\:active\:translate-y-40:active {
+    --transform-translate-y: 10rem;
+  }
+
+  .sm\:active\:translate-y-48:active {
+    --transform-translate-y: 12rem;
+  }
+
+  .sm\:active\:translate-y-56:active {
+    --transform-translate-y: 14rem;
+  }
+
+  .sm\:active\:translate-y-64:active {
+    --transform-translate-y: 16rem;
+  }
+
+  .sm\:active\:translate-y-px:active {
+    --transform-translate-y: 1px;
+  }
+
+  .sm\:active\:-translate-y-1:active {
+    --transform-translate-y: -0.25rem;
+  }
+
+  .sm\:active\:-translate-y-2:active {
+    --transform-translate-y: -0.5rem;
+  }
+
+  .sm\:active\:-translate-y-3:active {
+    --transform-translate-y: -0.75rem;
+  }
+
+  .sm\:active\:-translate-y-4:active {
+    --transform-translate-y: -1rem;
+  }
+
+  .sm\:active\:-translate-y-5:active {
+    --transform-translate-y: -1.25rem;
+  }
+
+  .sm\:active\:-translate-y-6:active {
+    --transform-translate-y: -1.5rem;
+  }
+
+  .sm\:active\:-translate-y-8:active {
+    --transform-translate-y: -2rem;
+  }
+
+  .sm\:active\:-translate-y-10:active {
+    --transform-translate-y: -2.5rem;
+  }
+
+  .sm\:active\:-translate-y-12:active {
+    --transform-translate-y: -3rem;
+  }
+
+  .sm\:active\:-translate-y-16:active {
+    --transform-translate-y: -4rem;
+  }
+
+  .sm\:active\:-translate-y-20:active {
+    --transform-translate-y: -5rem;
+  }
+
+  .sm\:active\:-translate-y-24:active {
+    --transform-translate-y: -6rem;
+  }
+
+  .sm\:active\:-translate-y-32:active {
+    --transform-translate-y: -8rem;
+  }
+
+  .sm\:active\:-translate-y-40:active {
+    --transform-translate-y: -10rem;
+  }
+
+  .sm\:active\:-translate-y-48:active {
+    --transform-translate-y: -12rem;
+  }
+
+  .sm\:active\:-translate-y-56:active {
+    --transform-translate-y: -14rem;
+  }
+
+  .sm\:active\:-translate-y-64:active {
+    --transform-translate-y: -16rem;
+  }
+
+  .sm\:active\:-translate-y-px:active {
+    --transform-translate-y: -1px;
+  }
+
+  .sm\:active\:-translate-y-full:active {
+    --transform-translate-y: -100%;
+  }
+
+  .sm\:active\:-translate-y-1\/2:active {
+    --transform-translate-y: -50%;
+  }
+
+  .sm\:active\:translate-y-1\/2:active {
+    --transform-translate-y: 50%;
+  }
+
+  .sm\:active\:translate-y-full:active {
+    --transform-translate-y: 100%;
+  }
+
   .sm\:skew-x-0 {
     --transform-skew-x: 0;
   }
@@ -66550,6 +67206,334 @@ video {
   }
 
   .md\:focus\:translate-y-full:focus {
+    --transform-translate-y: 100%;
+  }
+
+  .md\:active\:translate-x-0:active {
+    --transform-translate-x: 0;
+  }
+
+  .md\:active\:translate-x-1:active {
+    --transform-translate-x: 0.25rem;
+  }
+
+  .md\:active\:translate-x-2:active {
+    --transform-translate-x: 0.5rem;
+  }
+
+  .md\:active\:translate-x-3:active {
+    --transform-translate-x: 0.75rem;
+  }
+
+  .md\:active\:translate-x-4:active {
+    --transform-translate-x: 1rem;
+  }
+
+  .md\:active\:translate-x-5:active {
+    --transform-translate-x: 1.25rem;
+  }
+
+  .md\:active\:translate-x-6:active {
+    --transform-translate-x: 1.5rem;
+  }
+
+  .md\:active\:translate-x-8:active {
+    --transform-translate-x: 2rem;
+  }
+
+  .md\:active\:translate-x-10:active {
+    --transform-translate-x: 2.5rem;
+  }
+
+  .md\:active\:translate-x-12:active {
+    --transform-translate-x: 3rem;
+  }
+
+  .md\:active\:translate-x-16:active {
+    --transform-translate-x: 4rem;
+  }
+
+  .md\:active\:translate-x-20:active {
+    --transform-translate-x: 5rem;
+  }
+
+  .md\:active\:translate-x-24:active {
+    --transform-translate-x: 6rem;
+  }
+
+  .md\:active\:translate-x-32:active {
+    --transform-translate-x: 8rem;
+  }
+
+  .md\:active\:translate-x-40:active {
+    --transform-translate-x: 10rem;
+  }
+
+  .md\:active\:translate-x-48:active {
+    --transform-translate-x: 12rem;
+  }
+
+  .md\:active\:translate-x-56:active {
+    --transform-translate-x: 14rem;
+  }
+
+  .md\:active\:translate-x-64:active {
+    --transform-translate-x: 16rem;
+  }
+
+  .md\:active\:translate-x-px:active {
+    --transform-translate-x: 1px;
+  }
+
+  .md\:active\:-translate-x-1:active {
+    --transform-translate-x: -0.25rem;
+  }
+
+  .md\:active\:-translate-x-2:active {
+    --transform-translate-x: -0.5rem;
+  }
+
+  .md\:active\:-translate-x-3:active {
+    --transform-translate-x: -0.75rem;
+  }
+
+  .md\:active\:-translate-x-4:active {
+    --transform-translate-x: -1rem;
+  }
+
+  .md\:active\:-translate-x-5:active {
+    --transform-translate-x: -1.25rem;
+  }
+
+  .md\:active\:-translate-x-6:active {
+    --transform-translate-x: -1.5rem;
+  }
+
+  .md\:active\:-translate-x-8:active {
+    --transform-translate-x: -2rem;
+  }
+
+  .md\:active\:-translate-x-10:active {
+    --transform-translate-x: -2.5rem;
+  }
+
+  .md\:active\:-translate-x-12:active {
+    --transform-translate-x: -3rem;
+  }
+
+  .md\:active\:-translate-x-16:active {
+    --transform-translate-x: -4rem;
+  }
+
+  .md\:active\:-translate-x-20:active {
+    --transform-translate-x: -5rem;
+  }
+
+  .md\:active\:-translate-x-24:active {
+    --transform-translate-x: -6rem;
+  }
+
+  .md\:active\:-translate-x-32:active {
+    --transform-translate-x: -8rem;
+  }
+
+  .md\:active\:-translate-x-40:active {
+    --transform-translate-x: -10rem;
+  }
+
+  .md\:active\:-translate-x-48:active {
+    --transform-translate-x: -12rem;
+  }
+
+  .md\:active\:-translate-x-56:active {
+    --transform-translate-x: -14rem;
+  }
+
+  .md\:active\:-translate-x-64:active {
+    --transform-translate-x: -16rem;
+  }
+
+  .md\:active\:-translate-x-px:active {
+    --transform-translate-x: -1px;
+  }
+
+  .md\:active\:-translate-x-full:active {
+    --transform-translate-x: -100%;
+  }
+
+  .md\:active\:-translate-x-1\/2:active {
+    --transform-translate-x: -50%;
+  }
+
+  .md\:active\:translate-x-1\/2:active {
+    --transform-translate-x: 50%;
+  }
+
+  .md\:active\:translate-x-full:active {
+    --transform-translate-x: 100%;
+  }
+
+  .md\:active\:translate-y-0:active {
+    --transform-translate-y: 0;
+  }
+
+  .md\:active\:translate-y-1:active {
+    --transform-translate-y: 0.25rem;
+  }
+
+  .md\:active\:translate-y-2:active {
+    --transform-translate-y: 0.5rem;
+  }
+
+  .md\:active\:translate-y-3:active {
+    --transform-translate-y: 0.75rem;
+  }
+
+  .md\:active\:translate-y-4:active {
+    --transform-translate-y: 1rem;
+  }
+
+  .md\:active\:translate-y-5:active {
+    --transform-translate-y: 1.25rem;
+  }
+
+  .md\:active\:translate-y-6:active {
+    --transform-translate-y: 1.5rem;
+  }
+
+  .md\:active\:translate-y-8:active {
+    --transform-translate-y: 2rem;
+  }
+
+  .md\:active\:translate-y-10:active {
+    --transform-translate-y: 2.5rem;
+  }
+
+  .md\:active\:translate-y-12:active {
+    --transform-translate-y: 3rem;
+  }
+
+  .md\:active\:translate-y-16:active {
+    --transform-translate-y: 4rem;
+  }
+
+  .md\:active\:translate-y-20:active {
+    --transform-translate-y: 5rem;
+  }
+
+  .md\:active\:translate-y-24:active {
+    --transform-translate-y: 6rem;
+  }
+
+  .md\:active\:translate-y-32:active {
+    --transform-translate-y: 8rem;
+  }
+
+  .md\:active\:translate-y-40:active {
+    --transform-translate-y: 10rem;
+  }
+
+  .md\:active\:translate-y-48:active {
+    --transform-translate-y: 12rem;
+  }
+
+  .md\:active\:translate-y-56:active {
+    --transform-translate-y: 14rem;
+  }
+
+  .md\:active\:translate-y-64:active {
+    --transform-translate-y: 16rem;
+  }
+
+  .md\:active\:translate-y-px:active {
+    --transform-translate-y: 1px;
+  }
+
+  .md\:active\:-translate-y-1:active {
+    --transform-translate-y: -0.25rem;
+  }
+
+  .md\:active\:-translate-y-2:active {
+    --transform-translate-y: -0.5rem;
+  }
+
+  .md\:active\:-translate-y-3:active {
+    --transform-translate-y: -0.75rem;
+  }
+
+  .md\:active\:-translate-y-4:active {
+    --transform-translate-y: -1rem;
+  }
+
+  .md\:active\:-translate-y-5:active {
+    --transform-translate-y: -1.25rem;
+  }
+
+  .md\:active\:-translate-y-6:active {
+    --transform-translate-y: -1.5rem;
+  }
+
+  .md\:active\:-translate-y-8:active {
+    --transform-translate-y: -2rem;
+  }
+
+  .md\:active\:-translate-y-10:active {
+    --transform-translate-y: -2.5rem;
+  }
+
+  .md\:active\:-translate-y-12:active {
+    --transform-translate-y: -3rem;
+  }
+
+  .md\:active\:-translate-y-16:active {
+    --transform-translate-y: -4rem;
+  }
+
+  .md\:active\:-translate-y-20:active {
+    --transform-translate-y: -5rem;
+  }
+
+  .md\:active\:-translate-y-24:active {
+    --transform-translate-y: -6rem;
+  }
+
+  .md\:active\:-translate-y-32:active {
+    --transform-translate-y: -8rem;
+  }
+
+  .md\:active\:-translate-y-40:active {
+    --transform-translate-y: -10rem;
+  }
+
+  .md\:active\:-translate-y-48:active {
+    --transform-translate-y: -12rem;
+  }
+
+  .md\:active\:-translate-y-56:active {
+    --transform-translate-y: -14rem;
+  }
+
+  .md\:active\:-translate-y-64:active {
+    --transform-translate-y: -16rem;
+  }
+
+  .md\:active\:-translate-y-px:active {
+    --transform-translate-y: -1px;
+  }
+
+  .md\:active\:-translate-y-full:active {
+    --transform-translate-y: -100%;
+  }
+
+  .md\:active\:-translate-y-1\/2:active {
+    --transform-translate-y: -50%;
+  }
+
+  .md\:active\:translate-y-1\/2:active {
+    --transform-translate-y: 50%;
+  }
+
+  .md\:active\:translate-y-full:active {
     --transform-translate-y: 100%;
   }
 
@@ -88652,6 +89636,334 @@ video {
     --transform-translate-y: 100%;
   }
 
+  .lg\:active\:translate-x-0:active {
+    --transform-translate-x: 0;
+  }
+
+  .lg\:active\:translate-x-1:active {
+    --transform-translate-x: 0.25rem;
+  }
+
+  .lg\:active\:translate-x-2:active {
+    --transform-translate-x: 0.5rem;
+  }
+
+  .lg\:active\:translate-x-3:active {
+    --transform-translate-x: 0.75rem;
+  }
+
+  .lg\:active\:translate-x-4:active {
+    --transform-translate-x: 1rem;
+  }
+
+  .lg\:active\:translate-x-5:active {
+    --transform-translate-x: 1.25rem;
+  }
+
+  .lg\:active\:translate-x-6:active {
+    --transform-translate-x: 1.5rem;
+  }
+
+  .lg\:active\:translate-x-8:active {
+    --transform-translate-x: 2rem;
+  }
+
+  .lg\:active\:translate-x-10:active {
+    --transform-translate-x: 2.5rem;
+  }
+
+  .lg\:active\:translate-x-12:active {
+    --transform-translate-x: 3rem;
+  }
+
+  .lg\:active\:translate-x-16:active {
+    --transform-translate-x: 4rem;
+  }
+
+  .lg\:active\:translate-x-20:active {
+    --transform-translate-x: 5rem;
+  }
+
+  .lg\:active\:translate-x-24:active {
+    --transform-translate-x: 6rem;
+  }
+
+  .lg\:active\:translate-x-32:active {
+    --transform-translate-x: 8rem;
+  }
+
+  .lg\:active\:translate-x-40:active {
+    --transform-translate-x: 10rem;
+  }
+
+  .lg\:active\:translate-x-48:active {
+    --transform-translate-x: 12rem;
+  }
+
+  .lg\:active\:translate-x-56:active {
+    --transform-translate-x: 14rem;
+  }
+
+  .lg\:active\:translate-x-64:active {
+    --transform-translate-x: 16rem;
+  }
+
+  .lg\:active\:translate-x-px:active {
+    --transform-translate-x: 1px;
+  }
+
+  .lg\:active\:-translate-x-1:active {
+    --transform-translate-x: -0.25rem;
+  }
+
+  .lg\:active\:-translate-x-2:active {
+    --transform-translate-x: -0.5rem;
+  }
+
+  .lg\:active\:-translate-x-3:active {
+    --transform-translate-x: -0.75rem;
+  }
+
+  .lg\:active\:-translate-x-4:active {
+    --transform-translate-x: -1rem;
+  }
+
+  .lg\:active\:-translate-x-5:active {
+    --transform-translate-x: -1.25rem;
+  }
+
+  .lg\:active\:-translate-x-6:active {
+    --transform-translate-x: -1.5rem;
+  }
+
+  .lg\:active\:-translate-x-8:active {
+    --transform-translate-x: -2rem;
+  }
+
+  .lg\:active\:-translate-x-10:active {
+    --transform-translate-x: -2.5rem;
+  }
+
+  .lg\:active\:-translate-x-12:active {
+    --transform-translate-x: -3rem;
+  }
+
+  .lg\:active\:-translate-x-16:active {
+    --transform-translate-x: -4rem;
+  }
+
+  .lg\:active\:-translate-x-20:active {
+    --transform-translate-x: -5rem;
+  }
+
+  .lg\:active\:-translate-x-24:active {
+    --transform-translate-x: -6rem;
+  }
+
+  .lg\:active\:-translate-x-32:active {
+    --transform-translate-x: -8rem;
+  }
+
+  .lg\:active\:-translate-x-40:active {
+    --transform-translate-x: -10rem;
+  }
+
+  .lg\:active\:-translate-x-48:active {
+    --transform-translate-x: -12rem;
+  }
+
+  .lg\:active\:-translate-x-56:active {
+    --transform-translate-x: -14rem;
+  }
+
+  .lg\:active\:-translate-x-64:active {
+    --transform-translate-x: -16rem;
+  }
+
+  .lg\:active\:-translate-x-px:active {
+    --transform-translate-x: -1px;
+  }
+
+  .lg\:active\:-translate-x-full:active {
+    --transform-translate-x: -100%;
+  }
+
+  .lg\:active\:-translate-x-1\/2:active {
+    --transform-translate-x: -50%;
+  }
+
+  .lg\:active\:translate-x-1\/2:active {
+    --transform-translate-x: 50%;
+  }
+
+  .lg\:active\:translate-x-full:active {
+    --transform-translate-x: 100%;
+  }
+
+  .lg\:active\:translate-y-0:active {
+    --transform-translate-y: 0;
+  }
+
+  .lg\:active\:translate-y-1:active {
+    --transform-translate-y: 0.25rem;
+  }
+
+  .lg\:active\:translate-y-2:active {
+    --transform-translate-y: 0.5rem;
+  }
+
+  .lg\:active\:translate-y-3:active {
+    --transform-translate-y: 0.75rem;
+  }
+
+  .lg\:active\:translate-y-4:active {
+    --transform-translate-y: 1rem;
+  }
+
+  .lg\:active\:translate-y-5:active {
+    --transform-translate-y: 1.25rem;
+  }
+
+  .lg\:active\:translate-y-6:active {
+    --transform-translate-y: 1.5rem;
+  }
+
+  .lg\:active\:translate-y-8:active {
+    --transform-translate-y: 2rem;
+  }
+
+  .lg\:active\:translate-y-10:active {
+    --transform-translate-y: 2.5rem;
+  }
+
+  .lg\:active\:translate-y-12:active {
+    --transform-translate-y: 3rem;
+  }
+
+  .lg\:active\:translate-y-16:active {
+    --transform-translate-y: 4rem;
+  }
+
+  .lg\:active\:translate-y-20:active {
+    --transform-translate-y: 5rem;
+  }
+
+  .lg\:active\:translate-y-24:active {
+    --transform-translate-y: 6rem;
+  }
+
+  .lg\:active\:translate-y-32:active {
+    --transform-translate-y: 8rem;
+  }
+
+  .lg\:active\:translate-y-40:active {
+    --transform-translate-y: 10rem;
+  }
+
+  .lg\:active\:translate-y-48:active {
+    --transform-translate-y: 12rem;
+  }
+
+  .lg\:active\:translate-y-56:active {
+    --transform-translate-y: 14rem;
+  }
+
+  .lg\:active\:translate-y-64:active {
+    --transform-translate-y: 16rem;
+  }
+
+  .lg\:active\:translate-y-px:active {
+    --transform-translate-y: 1px;
+  }
+
+  .lg\:active\:-translate-y-1:active {
+    --transform-translate-y: -0.25rem;
+  }
+
+  .lg\:active\:-translate-y-2:active {
+    --transform-translate-y: -0.5rem;
+  }
+
+  .lg\:active\:-translate-y-3:active {
+    --transform-translate-y: -0.75rem;
+  }
+
+  .lg\:active\:-translate-y-4:active {
+    --transform-translate-y: -1rem;
+  }
+
+  .lg\:active\:-translate-y-5:active {
+    --transform-translate-y: -1.25rem;
+  }
+
+  .lg\:active\:-translate-y-6:active {
+    --transform-translate-y: -1.5rem;
+  }
+
+  .lg\:active\:-translate-y-8:active {
+    --transform-translate-y: -2rem;
+  }
+
+  .lg\:active\:-translate-y-10:active {
+    --transform-translate-y: -2.5rem;
+  }
+
+  .lg\:active\:-translate-y-12:active {
+    --transform-translate-y: -3rem;
+  }
+
+  .lg\:active\:-translate-y-16:active {
+    --transform-translate-y: -4rem;
+  }
+
+  .lg\:active\:-translate-y-20:active {
+    --transform-translate-y: -5rem;
+  }
+
+  .lg\:active\:-translate-y-24:active {
+    --transform-translate-y: -6rem;
+  }
+
+  .lg\:active\:-translate-y-32:active {
+    --transform-translate-y: -8rem;
+  }
+
+  .lg\:active\:-translate-y-40:active {
+    --transform-translate-y: -10rem;
+  }
+
+  .lg\:active\:-translate-y-48:active {
+    --transform-translate-y: -12rem;
+  }
+
+  .lg\:active\:-translate-y-56:active {
+    --transform-translate-y: -14rem;
+  }
+
+  .lg\:active\:-translate-y-64:active {
+    --transform-translate-y: -16rem;
+  }
+
+  .lg\:active\:-translate-y-px:active {
+    --transform-translate-y: -1px;
+  }
+
+  .lg\:active\:-translate-y-full:active {
+    --transform-translate-y: -100%;
+  }
+
+  .lg\:active\:-translate-y-1\/2:active {
+    --transform-translate-y: -50%;
+  }
+
+  .lg\:active\:translate-y-1\/2:active {
+    --transform-translate-y: 50%;
+  }
+
+  .lg\:active\:translate-y-full:active {
+    --transform-translate-y: 100%;
+  }
+
   .lg\:skew-x-0 {
     --transform-skew-x: 0;
   }
@@ -110748,6 +112060,334 @@ video {
   }
 
   .xl\:focus\:translate-y-full:focus {
+    --transform-translate-y: 100%;
+  }
+
+  .xl\:active\:translate-x-0:active {
+    --transform-translate-x: 0;
+  }
+
+  .xl\:active\:translate-x-1:active {
+    --transform-translate-x: 0.25rem;
+  }
+
+  .xl\:active\:translate-x-2:active {
+    --transform-translate-x: 0.5rem;
+  }
+
+  .xl\:active\:translate-x-3:active {
+    --transform-translate-x: 0.75rem;
+  }
+
+  .xl\:active\:translate-x-4:active {
+    --transform-translate-x: 1rem;
+  }
+
+  .xl\:active\:translate-x-5:active {
+    --transform-translate-x: 1.25rem;
+  }
+
+  .xl\:active\:translate-x-6:active {
+    --transform-translate-x: 1.5rem;
+  }
+
+  .xl\:active\:translate-x-8:active {
+    --transform-translate-x: 2rem;
+  }
+
+  .xl\:active\:translate-x-10:active {
+    --transform-translate-x: 2.5rem;
+  }
+
+  .xl\:active\:translate-x-12:active {
+    --transform-translate-x: 3rem;
+  }
+
+  .xl\:active\:translate-x-16:active {
+    --transform-translate-x: 4rem;
+  }
+
+  .xl\:active\:translate-x-20:active {
+    --transform-translate-x: 5rem;
+  }
+
+  .xl\:active\:translate-x-24:active {
+    --transform-translate-x: 6rem;
+  }
+
+  .xl\:active\:translate-x-32:active {
+    --transform-translate-x: 8rem;
+  }
+
+  .xl\:active\:translate-x-40:active {
+    --transform-translate-x: 10rem;
+  }
+
+  .xl\:active\:translate-x-48:active {
+    --transform-translate-x: 12rem;
+  }
+
+  .xl\:active\:translate-x-56:active {
+    --transform-translate-x: 14rem;
+  }
+
+  .xl\:active\:translate-x-64:active {
+    --transform-translate-x: 16rem;
+  }
+
+  .xl\:active\:translate-x-px:active {
+    --transform-translate-x: 1px;
+  }
+
+  .xl\:active\:-translate-x-1:active {
+    --transform-translate-x: -0.25rem;
+  }
+
+  .xl\:active\:-translate-x-2:active {
+    --transform-translate-x: -0.5rem;
+  }
+
+  .xl\:active\:-translate-x-3:active {
+    --transform-translate-x: -0.75rem;
+  }
+
+  .xl\:active\:-translate-x-4:active {
+    --transform-translate-x: -1rem;
+  }
+
+  .xl\:active\:-translate-x-5:active {
+    --transform-translate-x: -1.25rem;
+  }
+
+  .xl\:active\:-translate-x-6:active {
+    --transform-translate-x: -1.5rem;
+  }
+
+  .xl\:active\:-translate-x-8:active {
+    --transform-translate-x: -2rem;
+  }
+
+  .xl\:active\:-translate-x-10:active {
+    --transform-translate-x: -2.5rem;
+  }
+
+  .xl\:active\:-translate-x-12:active {
+    --transform-translate-x: -3rem;
+  }
+
+  .xl\:active\:-translate-x-16:active {
+    --transform-translate-x: -4rem;
+  }
+
+  .xl\:active\:-translate-x-20:active {
+    --transform-translate-x: -5rem;
+  }
+
+  .xl\:active\:-translate-x-24:active {
+    --transform-translate-x: -6rem;
+  }
+
+  .xl\:active\:-translate-x-32:active {
+    --transform-translate-x: -8rem;
+  }
+
+  .xl\:active\:-translate-x-40:active {
+    --transform-translate-x: -10rem;
+  }
+
+  .xl\:active\:-translate-x-48:active {
+    --transform-translate-x: -12rem;
+  }
+
+  .xl\:active\:-translate-x-56:active {
+    --transform-translate-x: -14rem;
+  }
+
+  .xl\:active\:-translate-x-64:active {
+    --transform-translate-x: -16rem;
+  }
+
+  .xl\:active\:-translate-x-px:active {
+    --transform-translate-x: -1px;
+  }
+
+  .xl\:active\:-translate-x-full:active {
+    --transform-translate-x: -100%;
+  }
+
+  .xl\:active\:-translate-x-1\/2:active {
+    --transform-translate-x: -50%;
+  }
+
+  .xl\:active\:translate-x-1\/2:active {
+    --transform-translate-x: 50%;
+  }
+
+  .xl\:active\:translate-x-full:active {
+    --transform-translate-x: 100%;
+  }
+
+  .xl\:active\:translate-y-0:active {
+    --transform-translate-y: 0;
+  }
+
+  .xl\:active\:translate-y-1:active {
+    --transform-translate-y: 0.25rem;
+  }
+
+  .xl\:active\:translate-y-2:active {
+    --transform-translate-y: 0.5rem;
+  }
+
+  .xl\:active\:translate-y-3:active {
+    --transform-translate-y: 0.75rem;
+  }
+
+  .xl\:active\:translate-y-4:active {
+    --transform-translate-y: 1rem;
+  }
+
+  .xl\:active\:translate-y-5:active {
+    --transform-translate-y: 1.25rem;
+  }
+
+  .xl\:active\:translate-y-6:active {
+    --transform-translate-y: 1.5rem;
+  }
+
+  .xl\:active\:translate-y-8:active {
+    --transform-translate-y: 2rem;
+  }
+
+  .xl\:active\:translate-y-10:active {
+    --transform-translate-y: 2.5rem;
+  }
+
+  .xl\:active\:translate-y-12:active {
+    --transform-translate-y: 3rem;
+  }
+
+  .xl\:active\:translate-y-16:active {
+    --transform-translate-y: 4rem;
+  }
+
+  .xl\:active\:translate-y-20:active {
+    --transform-translate-y: 5rem;
+  }
+
+  .xl\:active\:translate-y-24:active {
+    --transform-translate-y: 6rem;
+  }
+
+  .xl\:active\:translate-y-32:active {
+    --transform-translate-y: 8rem;
+  }
+
+  .xl\:active\:translate-y-40:active {
+    --transform-translate-y: 10rem;
+  }
+
+  .xl\:active\:translate-y-48:active {
+    --transform-translate-y: 12rem;
+  }
+
+  .xl\:active\:translate-y-56:active {
+    --transform-translate-y: 14rem;
+  }
+
+  .xl\:active\:translate-y-64:active {
+    --transform-translate-y: 16rem;
+  }
+
+  .xl\:active\:translate-y-px:active {
+    --transform-translate-y: 1px;
+  }
+
+  .xl\:active\:-translate-y-1:active {
+    --transform-translate-y: -0.25rem;
+  }
+
+  .xl\:active\:-translate-y-2:active {
+    --transform-translate-y: -0.5rem;
+  }
+
+  .xl\:active\:-translate-y-3:active {
+    --transform-translate-y: -0.75rem;
+  }
+
+  .xl\:active\:-translate-y-4:active {
+    --transform-translate-y: -1rem;
+  }
+
+  .xl\:active\:-translate-y-5:active {
+    --transform-translate-y: -1.25rem;
+  }
+
+  .xl\:active\:-translate-y-6:active {
+    --transform-translate-y: -1.5rem;
+  }
+
+  .xl\:active\:-translate-y-8:active {
+    --transform-translate-y: -2rem;
+  }
+
+  .xl\:active\:-translate-y-10:active {
+    --transform-translate-y: -2.5rem;
+  }
+
+  .xl\:active\:-translate-y-12:active {
+    --transform-translate-y: -3rem;
+  }
+
+  .xl\:active\:-translate-y-16:active {
+    --transform-translate-y: -4rem;
+  }
+
+  .xl\:active\:-translate-y-20:active {
+    --transform-translate-y: -5rem;
+  }
+
+  .xl\:active\:-translate-y-24:active {
+    --transform-translate-y: -6rem;
+  }
+
+  .xl\:active\:-translate-y-32:active {
+    --transform-translate-y: -8rem;
+  }
+
+  .xl\:active\:-translate-y-40:active {
+    --transform-translate-y: -10rem;
+  }
+
+  .xl\:active\:-translate-y-48:active {
+    --transform-translate-y: -12rem;
+  }
+
+  .xl\:active\:-translate-y-56:active {
+    --transform-translate-y: -14rem;
+  }
+
+  .xl\:active\:-translate-y-64:active {
+    --transform-translate-y: -16rem;
+  }
+
+  .xl\:active\:-translate-y-px:active {
+    --transform-translate-y: -1px;
+  }
+
+  .xl\:active\:-translate-y-full:active {
+    --transform-translate-y: -100%;
+  }
+
+  .xl\:active\:-translate-y-1\/2:active {
+    --transform-translate-y: -50%;
+  }
+
+  .xl\:active\:translate-y-1\/2:active {
+    --transform-translate-y: 50%;
+  }
+
+  .xl\:active\:translate-y-full:active {
     --transform-translate-y: 100%;
   }
 

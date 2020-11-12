@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({
 }) => (
   <div className='z-10 flex items-center justify-between w-full px-4 py-2 my-4 bg-white max-w-screen-lg transition duration-500 ease-out hover:shadow-cardHover shadow-card rounded-3xl'>
     <a
-      className='flex items-center justify-center w-24 h-24 bg-white rounded-xl'
+      className='flex items-center justify-center w-24 h-24 bg-white focus:outline-none focus:shadow-outline rounded-xl'
       href={serviceLink}
       target='_blank'
       rel='noreferrer'
@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({
     <div className='pr-4 text-right grid'>
       <a
         href={serviceLink}
-        className='w-full text-2xl'
+        className='w-full text-2xl focus:outline-none focus:shadow-outline '
         target='_blank'
         rel='noreferrer'
       >
