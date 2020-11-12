@@ -22,6 +22,24 @@ const Layout: React.FC = ({ children }) => {
         />
         <meta name='author' content='dwemerx' />
         <link rel='shortcut icon' type='image/ico' href='/favicon.ico' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicon-16x16.png'
+        />
+        <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4 overflow-hidden'>
         <a
