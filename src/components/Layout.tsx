@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useState } from 'react';
 import { GitHub, Menu, X } from 'react-feather';
 
@@ -6,6 +7,22 @@ const Layout: React.FC = ({ children }) => {
 
   return (
     <div className='relative w-screen h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
+      <Head>
+        <title>BLYAT</title>
+        <meta charSet='UTF-8' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta httpEquiv='X-UA-Compatible' content='ie=edge' />
+        <meta
+          name='keywords'
+          content='BLYAT, Service Provider, RSS, FreshRSS, RSSHub, RSSBridge, Reddit Top RSS, MORSS, HN RSS'
+        />
+        <meta
+          name='description'
+          content="A service provider you shouldn't trust"
+        />
+        <meta name='author' content='dwemerx' />
+        <link rel='shortcut icon' type='image/ico' href='public/favicon.ico' />
+      </Head>
       <header className='absolute z-10 flex items-center justify-between w-full px-8 py-4 overflow-hidden'>
         <a
           className='font-sans text-4xl font-semibold tracking-widest text-white uppercase sm:text-6xl focus:outline-none focus:shadow-outline '
