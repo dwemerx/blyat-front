@@ -6,7 +6,7 @@ const Layout: React.FC = ({ children }) => {
   const [isMenuVisible, toggleMenu] = useState(true);
 
   return (
-    <div className='relative w-screen h-screen overflow-y-scroll font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
+    <div className='relative w-screen h-screen overflow-x-hidden font-light text-center text-gray-700 bg-gradient-to-tr from-white via-gray-100 to-gray-100 grid-cols-none font-body'>
       <Head>
         <title>BLYAT</title>
         <meta charSet='UTF-8' />
@@ -107,7 +107,7 @@ const Layout: React.FC = ({ children }) => {
         />
       )}
       {children}
-      <footer className='flex justify-center p-8 text-white text-gray-700 fill-current hover:text-gray-800'>
+      <footer className='relative flex justify-center p-8 text-white text-gray-700 fill-current hover:text-gray-800'>
         <a
           href='https://blyat.org'
           target='_blank'

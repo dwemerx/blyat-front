@@ -7,12 +7,6 @@
   src: url('src/fonts/OpenSans-Regular.ttf');
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html,
 body,
 #root {
@@ -27,19 +21,54 @@ a {
 }
 
 .front-circle-1 {
-  clip-path: circle(60% at -10% 5%);
+  height: 1400px;
+  width: 1400px;
+  left: -500px;
+  top: -300px;
 }
 
-.front-circle-1-lg {
-  clip-path: circle(42% at -10% 5%);
+.front-circle-1-large {
+  height: 1600px;
+  width: 1600px;
+  left: -400px;
+  top: -400px;
 }
 
 .front-circle-2 {
-  clip-path: circle(3% at 90% 10%);
+  height: 100px;
+  width: 100px;
+  right: 5%;
+  top: 15%;
 }
 
 .front-circle-3 {
-  clip-path: circle(8% at 100% 40%);
+  height: 200px;
+  width: 200px;
+  right: 5%;
+  bottom: 5%;
+}
+
+.testimonials-circle-1 {
+  height: 250px;
+  width: 250px;
+  right: 7%;
+  bottom: 15%;
+}
+
+.services-circle-1 {
+  height: 750px;
+  width: 750px;
+  left: 5%;
+  bottom: 5%;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 .h-x2 {

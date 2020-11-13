@@ -81,10 +81,11 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <div id='testimonials' className='w-full h-full overflow-hidden'>
-      <div className='text-5xl'>Testimonials</div>
-      <div className='text-lg text-gray-500'>
-        Read what people have to say about us
+    <div id='testimonials' className='relative w-screen min-h-screen'>
+      <div className='absolute bg-teal-800 rounded-full testimonials-circle-1' />
+      <div>
+        <div className='text-5xl'>Testimonials</div>
+        <div className='text-lg'>Read what people have to say about us</div>
       </div>
       <div className='relative w-screen h-64'>
         <div className='relative w-screen'>
@@ -123,7 +124,7 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
           ))}
-          <div className='relative flex items-center justify-between w-screen px-8 my-auto h-600px xl:px-16'>
+          <div className='relative flex justify-between w-screen px-8 my-auto xl:justify-evenly h-600px xl:px-16'>
             <button
               className='w-16 h-16 bg-white rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out shadow-card'
               onClick={() => moveLeft()}

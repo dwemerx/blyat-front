@@ -24,8 +24,8 @@ const Card: React.FC<CardProps> = ({
     target='_blank'
     rel='noreferrer'
   >
-    <div className='flex items-center justify-start'>
-      <div className='flex items-center justify-center w-24 h-24 bg-white focus:outline-none focus:shadow-outline rounded-xl'>
+    <div className='z-10 flex items-center justify-start'>
+      <div className='z-10 flex items-center justify-center w-24 h-24 bg-white focus:outline-none focus:shadow-outline rounded-xl'>
         <Image
           width={90}
           height={90}
@@ -34,9 +34,9 @@ const Card: React.FC<CardProps> = ({
           title={title}
         />
       </div>
-      <div className='hidden ml-8 card-icons duration-500 md:flex '>
+      <div className='z-10 hidden ml-8 card-icons duration-500 md:flex '>
         <a
-          className='w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
+          className='z-10 w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
           href={sourceLink}
           target='_blank'
           rel='noreferrer'
@@ -46,7 +46,7 @@ const Card: React.FC<CardProps> = ({
         </a>
         {mainInstanceLink && (
           <a
-            className='w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
+            className='z-10 w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
             href={mainInstanceLink}
             target='_blank'
             rel='noreferrer'
@@ -57,7 +57,7 @@ const Card: React.FC<CardProps> = ({
         )}
       </div>
     </div>
-    <div className='w-40 pr-4 text-right sm:w-48 grid'>
+    <div className='z-10 w-40 pr-4 text-right sm:w-48 grid'>
       <a
         href={serviceLink}
         className='w-full text-2xl focus:outline-none focus:shadow-outline'
