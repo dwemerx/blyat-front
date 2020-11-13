@@ -125,13 +125,13 @@ const Testimonials: React.FC = () => {
           ))}
           <div className='relative flex items-center justify-between w-screen px-8 my-auto h-600px xl:px-16'>
             <button
-              className='w-16 h-16 bg-white rounded-full outline-none transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out shadow-card'
+              className='w-16 h-16 bg-white rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out shadow-card'
               onClick={() => moveLeft()}
             >
               <ChevronLeft size={32} />
             </button>
             <button
-              className='w-16 h-16 bg-white rounded-full outline-none transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out shadow-card'
+              className='w-16 h-16 bg-white rounded-full outline-none transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 md:active:translate-y-24 active:translate-y-20 duration-500 easy-out shadow-card'
               onClick={() => moveRight()}
             >
               <ChevronRight size={32} />
