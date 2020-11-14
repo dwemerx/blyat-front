@@ -13,17 +13,17 @@ const Testimonials: React.FC = () => {
     ],
     slides: [
       {
+        name: 'Boris',
+        occupation: 'Under Attack',
+        comment:
+          'This platform taught me how to protect yourself with a plastic bag. Very useful!',
+        image: '/images/testimonial3.jpg',
+      },
+      {
         name: 'Ahmad',
         occupation: 'Passionate Stock Photo',
         comment: "My glasses don't have any glass in them. Help",
         image: '/images/testimonial5.jpg',
-      },
-      {
-        name: 'Jeff',
-        occupation: 'Recently Approved for a Mortgage',
-        comment:
-          'This is my favorite cafe. The food is great and the staff is always ready to help!',
-        image: '/images/testimonial4.jpg',
       },
       {
         name: 'Valentin',
@@ -32,11 +32,11 @@ const Testimonials: React.FC = () => {
         image: '/images/testimonial1.jpg',
       },
       {
-        name: 'Boris',
-        occupation: 'Under Attack',
+        name: 'Jeff',
+        occupation: 'Recently Approved for a Mortgage',
         comment:
-          'This platform taught me how to protect yourself with a plastic bag. Very useful!',
-        image: '/images/testimonial3.jpg',
+          'This is my favorite cafe. The food is great and the staff is always ready to help!',
+        image: '/images/testimonial4.jpg',
       },
       {
         name: 'Victor',
@@ -124,7 +124,7 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
           ))}
-          <div className='relative flex justify-between w-screen px-8 my-auto xl:justify-evenly h-600px xl:px-16'>
+          <div className='relative flex items-center justify-between w-screen px-8 xl:justify-evenly h-600px xl:px-16'>
             <button
               className='w-16 h-16 bg-white border border-gray-300 rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out'
               onClick={() => moveLeft()}
