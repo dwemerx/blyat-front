@@ -54,14 +54,12 @@ const Layout: React.FC = ({ children }) => {
           tabIndex={0}
           onClick={() => toggleMenu(!isMenuVisible)}
         >
-          <Menu size={32} />
+          <Menu strokeWidth={1} size={32} />
         </button>
       </header>
       <div
-        className={`fixed right-0 z-30 w-full h-screen bg-white md:w-64 shadow-card 
-      transform easy-out duration-700 ${
-        isMenuVisible ? 'translate-x-full' : null
-      }`}
+        className={`fixed right-0 z-30 w-full h-screen bg-white md:w-64 border border-gray-300 transform easy-out duration-700 
+      ${isMenuVisible ? 'translate-x-full' : null}`}
       >
         <button
           className='absolute top-0 right-0 p-8 text-gray-700 fill-current focus:outline-none focus:shadow-outline hover:text-gray-800 lg:pb-8'
@@ -70,7 +68,7 @@ const Layout: React.FC = ({ children }) => {
           onClick={() => toggleMenu(!isMenuVisible)}
           onKeyUp={() => toggleMenu(!isMenuVisible)}
         >
-          <X size={32} />
+          <X strokeWidth={1} size={32} />
         </button>
         <div className='h-full py-64 text-3xl text-gray-700 grid place-items-center'>
           <a
@@ -114,7 +112,7 @@ const Layout: React.FC = ({ children }) => {
           rel='noreferrer'
           className='focus:outline-none focus:shadow-outline '
         >
-          <GitHub size={32} />
+          <GitHub strokeWidth={1} size={32} />
         </a>
       </footer>
     </div>

@@ -100,7 +100,7 @@ const Testimonials: React.FC = () => {
             ${slider.slidePosition[i].isVisible ? 'duration-700' : 'hidden'}`}
             >
               <div className='max-w-3xl p-4 place-items-center grid'>
-                <div className='p-4 bg-white grid place-items-center rounded-3xl shadow-card'>
+                <div className='p-4 bg-white border border-gray-300 grid place-items-center rounded-3xl'>
                   <div className='relative p-6 '>
                     <Image
                       alt='Image'
@@ -126,16 +126,16 @@ const Testimonials: React.FC = () => {
           ))}
           <div className='relative flex justify-between w-screen px-8 my-auto xl:justify-evenly h-600px xl:px-16'>
             <button
-              className='w-16 h-16 bg-white rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out shadow-card'
+              className='w-16 h-16 bg-white border border-gray-300 rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out'
               onClick={() => moveLeft()}
             >
-              <ChevronLeft size={32} />
+              <ChevronLeft strokeWidth={1} size={32} />
             </button>
             <button
-              className='w-16 h-16 bg-white rounded-full outline-none transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 md:active:translate-y-24 active:translate-y-20 duration-500 easy-out shadow-card'
+              className='w-16 h-16 bg-white border border-gray-300 rounded-full outline-none transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 md:active:translate-y-24 active:translate-y-20 duration-500 easy-out '
               onClick={() => moveRight()}
             >
-              <ChevronRight size={32} />
+              <ChevronRight strokeWidth={1} size={32} />
             </button>
           </div>
         </div>

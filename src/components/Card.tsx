@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
   mainInstanceLink,
 }) => (
   <a
-    className='z-10 flex items-center justify-between w-full px-4 py-2 my-4 bg-white show-card-icons max-w-screen-lg transition duration-500 ease-out hover:shadow-cardHover shadow-card rounded-3xl'
+    className='z-10 flex items-center justify-between w-full px-4 py-2 my-4 bg-white border border-gray-300 hover:border-gray-500 show-card-icons max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg transition duration-500 ease-out rounded-3xl'
     href={serviceLink}
     target='_blank'
     rel='noreferrer'
@@ -36,23 +36,23 @@ const Card: React.FC<CardProps> = ({
       </div>
       <div className='z-10 hidden ml-8 card-icons duration-500 md:flex '>
         <a
-          className='z-10 w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
-          href={sourceLink}
+          className='z-10 w-12 h-12 mx-4 text-gray-400 border border-gray-300 rounded-full hover:border-gray-500 hover:text-gray-700 duration-300 grid place-items-center'
           target='_blank'
           rel='noreferrer'
           title={`${title} Source Code`}
+          href={sourceLink}
         >
-          <GitHub size={32} />
+          <GitHub strokeWidth={1} size={24} />
         </a>
         {mainInstanceLink && (
           <a
-            className='z-10 w-16 h-16 mx-4 text-gray-500 rounded-full hover:text-gray-700 duration-300 grid place-items-center shadow-card hover:shadow-cardHover'
-            href={mainInstanceLink}
+            className='z-10 w-12 h-12 mx-4 text-gray-400 border border-gray-300 rounded-full hover:border-gray-500 hover:text-gray-700 duration-300 grid place-items-center'
             target='_blank'
             rel='noreferrer'
             title={`${title} Main Instance`}
+            href={mainInstanceLink}
           >
-            <Home size={32} />
+            <Home strokeWidth={1} size={24} />
           </a>
         )}
       </div>
