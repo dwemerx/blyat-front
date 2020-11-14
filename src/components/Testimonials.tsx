@@ -99,7 +99,7 @@ const Testimonials: React.FC = () => {
               className={`grid absolute w-screen h-600px place-items-center
             ${slider.slidePosition[i].isVisible ? 'duration-700' : 'hidden'}`}
             >
-              <div className='max-w-3xl p-4 place-items-center grid'>
+              <div className='max-w-md p-4 md:max-w-lg lg:max-w-xl xl:max-w-2xl place-items-center grid'>
                 <div className='p-4 bg-white border border-gray-300 grid place-items-center rounded-3xl'>
                   <div className='relative p-6 '>
                     <Image
@@ -124,7 +124,7 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
           ))}
-          <div className='relative flex items-center justify-between w-screen px-8 xl:justify-evenly h-600px xl:px-16'>
+          <div className='relative flex items-center justify-between w-screen px-8 xl:justify-around h-600px xl:px-16'>
             <button
               className='w-16 h-16 bg-white border border-gray-300 rounded-full outline-none md:active:translate-y-24 active:translate-y-20 transform translate-y-20 md:translate-y-16 xl:w-24 xl:h-24 grid place-items-center xl:p-6 focus:outline-none hover:scale-110 active:translate-y-4 duration-500 easy-out'
               onClick={() => moveLeft()}

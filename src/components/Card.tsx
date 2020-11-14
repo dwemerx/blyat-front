@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
   mainInstanceLink,
 }) => (
   <a
-    className='z-10 flex items-center justify-between w-full px-4 py-0 my-4 bg-white border border-gray-300 hover:border-gray-500 show-card-icons max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg transition duration-500 ease-out rounded-3xl'
+    className='z-10 flex items-center justify-between w-full px-4 py-0 my-2 bg-white border border-gray-300 sm:my-4 hover:border-gray-500 show-card-icons max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg transition duration-500 ease-out rounded-3xl'
     href={serviceLink}
     target='_blank'
     rel='noreferrer'
