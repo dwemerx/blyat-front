@@ -23,7 +23,11 @@ const FAQ: React.FC = () => (
       />
       <QACard
         question='How reliable your servers are?'
-        answer="Well, all services are hosted on a Hetzner's VPS. It's pretty good."
+        answer="Well, all services are hosted on a Hetzner's VPS (Finland). It's pretty good."
+      />
+      <QACard
+        question='Are you trolling me?'
+        answer='No, why would you ask this?'
       />
     </div>
   </div>
