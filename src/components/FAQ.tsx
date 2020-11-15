@@ -1,7 +1,7 @@
 import QACard from 'src/components/QACard';
 
 const FAQ: React.FC = () => (
-  <div className='relative w-screen min-h-screen'>
+  <div id='phacyou' className='relative w-screen min-h-screen'>
     <div className='mb-16'>
       <div className='text-5xl'>Frequently Asked Questions</div>
       <div className='text-lg'>

@@ -4,7 +4,7 @@ const Front: React.FC = () => {
   const isLarge = useMedia({ minWidth: 1600 });
 
   return (
-    <div className='relative w-screen h-screen'>
+    <div className='relative w-screen h-screen mb-32'>
       <div
         className={`absolute bg-teal-400 rounded-full ${
           isLarge ? 'front-circle-1-large' : 'front-circle-1'

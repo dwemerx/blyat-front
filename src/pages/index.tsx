@@ -10,10 +10,10 @@ const Home: React.FC = () => (
     <Testimonials />
     <div
       id='services'
-      className='relative w-screen h-auto p-4 grid justify-items-center'
+      className='relative w-screen h-auto p-4 mb-32 grid justify-items-center'
     >
       <div className='mt-64 text-6xl sm:mt-0'>Services</div>
-      <div className='mb-8'>
+      <div className='mb-16'>
         Just take a look at what we have to offer. And for the best part,
         it&#39;s all{' '}
         <span className='font-bold text-transparent bg-clip-text bg-gradient-to-tr from-purple-400 via-pink-500 to-red-500'>

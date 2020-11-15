@@ -81,9 +81,9 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <div id='testimonials' className='relative w-screen min-h-screen'>
+    <div id='testimonials' className='relative w-screen min-h-screen mb-32'>
       <div className='absolute bg-teal-800 rounded-full testimonials-circle-1' />
-      <div>
+      <div className='mb-16'>
         <div className='text-5xl'>Testimonials</div>
         <div className='text-lg'>Read what people have to say about us</div>
       </div>
