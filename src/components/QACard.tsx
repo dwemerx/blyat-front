@@ -1,34 +1,43 @@
 import { useState } from 'react';
 import { ChevronRight } from 'react-feather';
 
-const FAQ: React.FC = () => {
+interface FAQProps {
+  question: string;
+  answer: string;
+}
+
+const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
-    console.log(!open);
     setOpen(!open);
   };
 
-  console.log(!open);
-
   return (
-    <div className='max-w-md p-4 bg-white border border-gray-300 transform duration-700 easy-out rounded-3xl hover:border-gray-500'>
-      <div className='relative flex items-center'>
-        <button
-          className={`mr-4 ${open ? 'rotate-90' : null}`}
+    <div className='block w-full px-8 py-4 mb-4 bg-white border border-gray-300 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg rounded-3xl hover:border-gray-500'>
+      <details className='relative flex items-center'>
+        <summary
+          className='focus:outline-none active:outline-none summary-no-marker'
           onClick={() => handleClick()}
         >
-          <ChevronRight className='' strokeWidth={1.5} size={24} />
-        </button>
-        <div className=''>Can I donate?</div>
-      </div>
-      <div className='h-0 overflow-hidden'>
-        <div className='w-full px-8 my-4'>
-          <div className='w-full border border-gray-300'></div>
-        </div>
-        Yes! You definitely can. Please choose your favorite service and donate
-        to the developer directly. BLYAT does not accept any donations, though.
-      </div>
+          {!!window.webkitURL && (
+            <ChevronRight
+              strokeWidth={1.5}
+              className={`inline mr-4 transform duration-300 easy-out ${
+                open ? 'rotate-90' : null
+              }`}
+              size={24}
+            />
+          )}
+          {question}
+        </summary>
+        <p>
+          <div className='px-8 mt-2 mb-4'>
+            <div className='border border-gray-300'></div>
+          </div>
+          {answer}
+        </p>
+      </details>
     </div>
   );
 };

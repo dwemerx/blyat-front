@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@types/faker": "^5.1.4",
-    "next": "latest",
+    "next": "^10.0.1",
     "react": "latest",
     "react-dom": "latest",
     "react-feather": "^2.0.8",
