@@ -10,6 +10,7 @@
     "jsx": "preserve",
     "moduleResolution": "node",
     "rootDir": "src",
+    "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
