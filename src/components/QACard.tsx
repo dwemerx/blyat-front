@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import isFirefox from 'react-device-detect';
 import { ChevronRight } from 'react-feather';
 
 interface FAQProps {
@@ -20,7 +21,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
           className='focus:outline-none active:outline-none summary-no-marker'
           onClick={() => handleClick()}
         >
-          {!!window.webkitURL && (
+          {!isFirefox && (
             <ChevronRight
               strokeWidth={1.5}
               className={`inline mr-4 transform duration-300 easy-out ${
