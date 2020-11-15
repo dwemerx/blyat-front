@@ -1,4 +1,5 @@
 import Card from 'src/components/Card';
+import FAQ from 'src/components/FAQ';
 import Front from 'src/components/Front';
 import Layout from 'src/components/Layout';
 import Testimonials from 'src/components/Testimonials';
@@ -67,6 +68,7 @@ const Home: React.FC = () => (
         mainInstanceLink='https://hnrss.org'
       />
     </div>
+    <FAQ />
   </Layout>
 );
 

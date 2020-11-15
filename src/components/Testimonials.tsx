@@ -101,7 +101,7 @@ const Testimonials: React.FC = () => {
             >
               <div className='max-w-md p-4 md:max-w-lg lg:max-w-xl xl:max-w-2xl place-items-center grid'>
                 <div className='p-4 bg-white border border-gray-300 grid place-items-center rounded-3xl'>
-                  <div className='relative p-6 '>
+                  <div className='relative p-6'>
                     <Image
                       alt='Image'
                       className='object-cover w-full h-full rounded-full'
@@ -114,7 +114,7 @@ const Testimonials: React.FC = () => {
                   <div className='px-4 mb-4 text-lg text-gray-500'>
                     {s.occupation}
                   </div>
-                  <div className='w-full px-8'>
+                  <div className='w-full px-8 pt-8'>
                     <div className='w-full border border-gray-300'></div>
                   </div>
                   <div className='p-4 text-3xl'>
