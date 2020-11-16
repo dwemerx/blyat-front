@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { Menu } from 'react-feather';
+import useMedia from 'use-media';
 
+import Navbar from './Navbar';
 import SideMenu from './SideMenu';
 
 const Header: React.FC = () => {
   const [isMenuVisible, toggleMenu] = useState(true);
+  const isLarge = useMedia({ minWidth: 1400 });
 
   return (
     <>
@@ -15,16 +18,24 @@ const Header: React.FC = () => {
         >
           Blyat
         </a>
-        <button
-          className='text-white fill-current lg:text-gray-700 lg:hover:text-gray-800 lg:pb-8 focus:outline-none focus:shadow-outline '
-          type='button'
-          tabIndex={0}
-          onClick={() => toggleMenu(!isMenuVisible)}
-        >
-          <Menu strokeWidth={1} size={32} />
-        </button>
+        {isLarge ? (
+          <Navbar />
+        ) : (
+          <button
+            className='text-white fill-current md:text-gray-700 md:hover:text-gray-800 lg:pb-8 focus:outline-none focus:shadow-outline '
+            type='button'
+            tabIndex={0}
+            onClick={() => toggleMenu(!isMenuVisible)}
+          >
+            <Menu strokeWidth={1} size={32} />
+          </button>
+        )}
       </header>
-      <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+      {isLarge
+        ? null
+        : isMenuVisible && (
+            <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+          )}
     </>
   );
 };
