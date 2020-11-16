@@ -19,7 +19,7 @@ const FAQ: React.FC = () => (
       />
       <QACard
         question='Can I copy your project and host it myself?'
-        answer='Yes! The source code for the front page, as well as for the docker files, is somewhere on github. If you find them, please leave a star, so my self esteem will grow by exatly one star.'
+        answer='Yes! The source code for the front page, as well as for the docker files, is somewhere on github. If you find it, please leave a star, so my self esteem will grow by exatly one star.'
       />
       <QACard
         question='How reliable your servers are?'
@@ -27,7 +27,7 @@ const FAQ: React.FC = () => (
       />
       <QACard
         question='Are you trolling me?'
-        answer='No, why would you ask this?'
+        answer='No, why would you think that?'
       />
     </div>
   </div>
