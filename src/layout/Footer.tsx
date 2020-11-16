@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
       href='https://github.com/dwemerx/blyat-front'
       target='_blank'
       rel='noreferrer'
-      className='absolute right-0 h-full pr-8 focus:outline-none focus:shadow-outline '
+      className='absolute h-full pt-16 sm:right-0 sm:pr-8 sm:pt-0 focus:outline-none focus:shadow-outline'
     >
       <GitHub strokeWidth={1.5} size={24} />
     </a>
