@@ -91,6 +91,10 @@ a {
   opacity: 100;
 }
 
-.summary-no-marker::-webkit-details-marker {
+.no-marker::-webkit-details-marker {
   display: none;
+}
+
+.no-marker::marker {
+  width: 0;
 }

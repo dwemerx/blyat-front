@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import isFirefox from 'react-device-detect';
 import { ChevronRight } from 'react-feather';
 
 interface FAQProps {
@@ -15,22 +14,20 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
   };
 
   return (
-    <div className='block w-full px-8 py-4 mb-4 bg-white border border-gray-300 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg rounded-3xl hover:border-gray-500'>
-      <details className='relative flex items-center'>
+    <div className='w-full px-8 py-4 mb-4 bg-white border border-gray-300 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg rounded-3xl hover:border-gray-500'>
+      <details className='relative flex items-center justify-center'>
         <summary
-          className='focus:outline-none active:outline-none summary-no-marker'
+          className='flex items-center justify-center focus:outline-none active:outline-none no-marker'
           onClick={() => handleClick()}
         >
-          {!isFirefox && (
-            <ChevronRight
-              strokeWidth={1.5}
-              className={`inline mr-4 transform duration-300 easy-out ${
-                open ? 'rotate-90' : null
-              }`}
-              size={24}
-            />
-          )}
-          {question}
+          <ChevronRight
+            strokeWidth={1.5}
+            className={`inline-block mr-4 transform duration-300 easy-out ${
+              open ? 'rotate-90' : null
+            }`}
+            size={24}
+          />
+          <div className='inline-block w-3/4 pr-8'>{question}</div>
         </summary>
         <p>
           <div className='px-8 mt-2 mb-4'>

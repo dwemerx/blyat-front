@@ -8,7 +8,7 @@ const FAQ: React.FC = () => (
         Well, maybe not that frequently, but I&apos;ll answer them anyway
       </div>
     </div>
-    <div className='relative grid place-items-center'>
+    <div className='relative px-4 grid place-items-center'>
       <QACard
         question='Can I donate?'
         answer='Yes! You definitely can. Please choose your favorite service and donate to the developer directly. BLYAT does not accept any donations, though.'
