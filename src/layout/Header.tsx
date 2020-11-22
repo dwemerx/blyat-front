@@ -31,11 +31,9 @@ const Header: React.FC = () => {
           </button>
         )}
       </header>
-      {isLarge
-        ? null
-        : isMenuVisible && (
-            <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
-          )}
+      {isLarge ? null : (
+        <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+      )}
     </>
   );
 };
