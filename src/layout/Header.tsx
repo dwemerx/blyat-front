@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Menu } from 'react-feather';
 import useMedia from 'use-media';
 
@@ -6,8 +6,19 @@ import Navbar from './Navbar';
 import SideMenu from './SideMenu';
 
 const Header: React.FC = () => {
+  // For some unknown reason, in production build, SideMenu changes its position
+  // when loaded for the first time. As a workaround, set a delay of 2 seconds
+  const [isMenuLoaded, loadMenu] = useState(false);
+
   const [isMenuVisible, toggleMenu] = useState(true);
   const isLarge = useMedia({ minWidth: 1400 });
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      loadMenu(true);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
@@ -31,9 +42,11 @@ const Header: React.FC = () => {
           </button>
         )}
       </header>
-      {isLarge ? null : (
-        <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
-      )}
+      {isLarge
+        ? null
+        : isMenuLoaded && (
+            <SideMenu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+          )}
     </>
   );
 };
