@@ -29,12 +29,12 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
           />
           <div className='inline-block w-3/4 pr-8'>{question}</div>
         </summary>
-        <p>
+        <div>
           <div className='px-8 mt-2 mb-4'>
             <div className='border border-gray-300'></div>
           </div>
           {answer}
-        </p>
+        </div>
       </details>
     </div>
   );
