@@ -2,9 +2,11 @@ import QACard from 'src/components/QACard';
 
 const FAQ: React.FC = () => (
   <div id='phacyou' className='relative w-screen min-h-screen'>
+    <div className='absolute bg-teal-800 rounded-full faq-circle-1' />
+    <div className='absolute bg-teal-500 rounded-full faq-circle-2' />
     <div className='mb-16'>
-      <div className='text-5xl'>Frequently Asked Questions</div>
-      <div className='text-lg'>
+      <div className='z-10 text-5xl'>Frequently Asked Questions</div>
+      <div className='z-10 text-lg'>
         Well, maybe not that frequently, but I&apos;ll answer them anyway
       </div>
     </div>

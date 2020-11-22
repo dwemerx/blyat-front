@@ -5,6 +5,7 @@ const Services: React.FC = () => (
     id='services'
     className='relative w-screen h-auto p-4 mb-32 grid justify-items-center'
   >
+    <div className='absolute bg-teal-400 rounded-full services-circle-1' />
     <div className='mt-64 text-6xl sm:mt-0'>Services</div>
     <div className='mb-16'>
       Just take a look at what we have to offer. And for the best part, it&#39;s

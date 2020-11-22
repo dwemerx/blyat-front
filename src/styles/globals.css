@@ -58,8 +58,22 @@ a {
 .services-circle-1 {
   height: 750px;
   width: 750px;
-  left: 5%;
-  bottom: 5%;
+  left: -10%;
+  bottom: -5%;
+}
+
+.faq-circle-1 {
+  height: 450px;
+  width: 450px;
+  right: 0%;
+  top: 15%;
+}
+
+.faq-circle-2 {
+  height: 150px;
+  width: 150px;
+  left: 10%;
+  bottom: 25%;
 }
 
 .no-scrollbar {
