@@ -53,14 +53,14 @@ const Services: React.FC = () => (
       sourceLink='https://github.com/pictuga/morss'
       mainInstanceLink='https://morss.it/'
     />
-    <Card
+    {/* <Card
       title='HN RSS'
       image={'/images/hnrss.png'}
       serviceLink='https://hnrss.org'
       description='Advanced HN RSS Bridge'
       sourceLink='https://github.com/hnrss/hnrss'
       mainInstanceLink='https://hnrss.org'
-    />
+    /> */}
   </div>
 );
 
