@@ -1,0 +1,19 @@
+{
+  "@context": "http://schema.org",
+  "version": "0.0.1",
+  "@type": "Organization",
+  "organizationType": "Informal collective",
+  "name": "BLYAT",
+  "tagLine": "A collection of privacy friendly RSS services",
+  "homeUrl": "https://blyat.org",
+  "logo": "https://blyat.org/favicon.ico",
+  "description": "RSS services",
+  "communicationLanguages": ["en"],
+  "contactUrl": "https://github.com/dwemerx/blyat-front/issues",
+  "privacyPolicyUrl": "https://blyat.org/#phacyou",
+  "termsOfServiceUrl": "https://blyat.org/#phacyou",
+  "isServiceProvider": true,
+  "foundingDate": "2020",
+  "dateCreated": "2020-12-3T15:02:24Z",
+  "dateModified": "2020-12-3T15:02:24Z"
+}
