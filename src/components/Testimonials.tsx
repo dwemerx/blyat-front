@@ -84,8 +84,10 @@ const Testimonials: React.FC = () => {
     <div id='testimonials' className='relative w-screen min-h-screen mb-32'>
       <div className='absolute bg-teal-800 rounded-full testimonials-circle-1' />
       <div className='mb-16'>
-        <div className='text-5xl'>Testimonials</div>
-        <div className='text-lg'>Read what people have to say about us</div>
+        <div className='relative text-5xl'>Testimonials</div>
+        <div className='relative text-lg'>
+          Read what people have to say about us
+        </div>
       </div>
       <div className='relative w-screen h-64'>
         <div className='relative w-screen'>

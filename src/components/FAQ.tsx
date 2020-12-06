@@ -5,8 +5,8 @@ const FAQ: React.FC = () => (
     <div className='absolute bg-teal-800 rounded-full faq-circle-1' />
     <div className='absolute bg-teal-500 rounded-full faq-circle-2' />
     <div className='mb-16'>
-      <div className='z-10 text-5xl'>Frequently Asked Questions</div>
-      <div className='z-10 text-lg'>
+      <div className='relative text-5xl'>Frequently Asked Questions</div>
+      <div className='relative text-lg'>
         Well, maybe not that frequently, but I&apos;ll answer them anyway
       </div>
     </div>
