@@ -45,35 +45,35 @@ a {
   height: 200px;
   width: 200px;
   right: 5%;
-  bottom: 5%;
+  bottom: -15%;
 }
 
 .testimonials-circle-1 {
   height: 250px;
   width: 250px;
-  right: 7%;
-  bottom: 15%;
+  right: -7%;
+  bottom: -15%;
 }
 
 .services-circle-1 {
   height: 750px;
   width: 750px;
   left: -10%;
-  bottom: -5%;
+  bottom: -10%;
 }
 
 .faq-circle-1 {
   height: 450px;
   width: 450px;
   right: 0%;
-  top: 15%;
+  top: 20%;
 }
 
 .faq-circle-2 {
   height: 150px;
   width: 150px;
-  left: 10%;
-  bottom: 25%;
+  left: 5%;
+  bottom: 20%;
 }
 
 .no-scrollbar {
@@ -111,4 +111,26 @@ a {
 
 .no-marker::marker {
   width: 0;
+}
+
+/* bg-<color> is broken in tailwind because of new version of postcss */
+
+.bg-teal-900 {
+  background: #00695c;
+}
+
+.bg-teal-800 {
+  background: #00796b;
+}
+
+.bg-teal-700 {
+  background: #00897b;
+}
+
+.bg-teal-500 {
+  background: #26a69a;
+}
+
+.bg-teal-400 {
+  background: #4db6ac;
 }
