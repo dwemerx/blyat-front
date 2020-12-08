@@ -13,11 +13,11 @@ const FAQ: React.FC = () => (
     <div className='relative px-4 grid place-items-center'>
       <QACard
         question='What is RSS?'
-        answer='It is a way to follow blogs, news websites, Twitter accounts, Youtube channels, and so on. You can follow pretty much anything, even search results and comments on certain posts. RSS also allows you to follow your favorite content creators without an account or giving up your data to social media companies. Many popular websites do not provide an official RSS feed and this project attempts to fix this.'
+        answer='It is a way to follow blogs, news websites, Twitter accounts, Youtube channels, and so on. You can follow pretty much anything, even search results and comments on certain posts. RSS also allows you to follow your favorite content creators without an account or giving up your data to social media companies.'
       />
       <QACard
         question='Why does this project exist?'
-        answer='Because the world needs it, blyat.'
+        answer='Many popular websites do not provide an official RSS feed and this project attempts to fix this, blyat. '
       />
       <QACard
         question='Can I donate?'
