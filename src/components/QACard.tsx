@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ChevronRight } from 'react-feather';
 
 interface FAQProps {
-  question: string;
+  question: string | Element;
   answer: string;
 }
 
@@ -27,7 +27,11 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
             }`}
             size={24}
           />
-          <div className='inline-block w-3/4 pr-8'>{question}</div>
+          {typeof question === 'string' ? (
+            <div className='inline-block w-3/4 pr-8'>{question}</div>
+          ) : (
+            question
+          )}
         </summary>
         <div>
           <div className='px-8 mt-2 mb-4'>
