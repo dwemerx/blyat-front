@@ -39,8 +39,8 @@ const Services: React.FC = () => (
     />
     <Card
       title='RSS Proxy'
-      image={'/images/rssproxy.svg'}
-      serviceLink='https://rss-proxy.blyat.org'
+      image={'/images/rss-proxy.svg'}
+      serviceLink='https://rssproxy.blyat.org'
       description='Generate RSS Feeds for (almost) anything'
       sourceLink='https://github.com/damoeb/rss-proxy'
       mainInstanceLink='https://rssproxy.migor.org/'
