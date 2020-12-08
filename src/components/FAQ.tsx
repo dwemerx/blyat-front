@@ -27,6 +27,7 @@ const FAQ: React.FC = () => (
         question='Can I trust you with my data?'
         answer='If you are an adventurist, yes.'
       />
+      <QACard question='Do you sell it?' answer='I just... You... Whoah. No.' />
       <QACard
         question='Can I host these services myself?'
         answer='Yes! The source code for the front page, as well as for the container images, is somewhere on Github. If you find it, please leave a star, so my self esteem will grow by exatly one star.'
@@ -39,6 +40,7 @@ const FAQ: React.FC = () => (
         question='Are you trolling me?'
         answer='No, why would you think that?'
       />
+      {/*This is why I use Typescript*/}
       <QACard
         question='Gib. Mor.'
         answer={((<GIB_MOR_ANSWER />) as unknown) as string}
