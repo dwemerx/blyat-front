@@ -38,6 +38,14 @@ const Services: React.FC = () => (
       sourceLink='https://github.com/RSS-Bridge/rss-bridge'
     />
     <Card
+      title='RSS Proxy'
+      image={'/images/rss-proxy.svg'}
+      serviceLink='https://rss-proxy.blyat.org'
+      description='Generate RSS Feeds for (almost) anything'
+      sourceLink='https://github.com/damoeb/rss-proxy'
+      mainInstanceLink='https://rssproxy.migor.org/'
+    />
+    <Card
       title='Reddit Top RSS'
       image={'/images/reddit.png'}
       serviceLink='https://rtr.blyat.org'
@@ -53,14 +61,22 @@ const Services: React.FC = () => (
       sourceLink='https://github.com/pictuga/morss'
       mainInstanceLink='https://morss.it/'
     />
-    {/* <Card
+    <Card
       title='HN RSS'
       image={'/images/hnrss.png'}
-      serviceLink='https://hnrss.org'
+      serviceLink='https://hnrss.blyat.org'
       description='Advanced HN RSS Bridge'
       sourceLink='https://github.com/hnrss/hnrss'
       mainInstanceLink='https://hnrss.org'
-    /> */}
+    />
+    <Card
+      title='Kill The Newsletter'
+      image={'/images/kill-the-newsletter.svg'}
+      serviceLink='https://ktn.blyat.org'
+      description='Convert email newsletters into Atom feeds'
+      sourceLink='https://github.com/leafac/kill-the-newsletter.com'
+      mainInstanceLink='https://kill-the-newsletter.com/'
+    />
   </div>
 );
 

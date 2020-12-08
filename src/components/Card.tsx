@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({
           title={title}
         />
       </div>
-      <div className='z-10 hidden ml-8 card-icons duration-500 md:flex '>
+      <div className='z-10 hidden ml-8 card-icons duration-500 sm:flex '>
         <a
           className='z-10 w-12 h-12 mx-4 text-gray-400 border border-gray-300 rounded-full hover:border-gray-500 hover:text-gray-500 duration-300 grid place-items-center'
           target='_blank'
@@ -57,16 +57,16 @@ const Card: React.FC<CardProps> = ({
         )}
       </div>
     </div>
-    <div className='z-10 w-40 pr-4 text-right sm:w-48 grid'>
+    <div className='z-10 w-48 pr-4 text-right sm:w-64 grid'>
       <a
         href={serviceLink}
-        className='w-full text-2xl focus:outline-none focus:shadow-outline'
+        className='w-full mb-2 text-2xl leading-6 focus:outline-none focus:shadow-outline'
         target='_blank'
         rel='noreferrer'
       >
         {title}
       </a>
-      <p className='text-xs text-gray-500'>{description}</p>
+      <p className='text-xs text-gray-500 truncate'>{description}</p>
     </div>
   </a>
 );
