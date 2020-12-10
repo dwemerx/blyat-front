@@ -9,7 +9,7 @@
   "logo": "https://blyat.org/favicon.ico",
   "description": "RSS services",
   "communicationLanguages": ["en"],
-  "contactUrl": "https://github.com/dwemerx/blyat-front/issues",
+  "contactUrl": "https://github.com/dwemerx/blyat/issues",
   "privacyPolicyUrl": "https://blyat.org/#phacyou",
   "termsOfServiceUrl": "https://blyat.org/#phacyou",
   "isServiceProvider": true,

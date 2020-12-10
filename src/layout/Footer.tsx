@@ -19,7 +19,7 @@ const Footer: React.FC = () => (
       </div>
     </div>
     <a
-      href='https://github.com/dwemerx/blyat-front'
+      href='https://github.com/dwemerx/blyat'
       target='_blank'
       rel='noreferrer'
       className='absolute h-full pt-16 sm:right-0 sm:pr-8 sm:pt-0 focus:outline-none focus:shadow-outline'
