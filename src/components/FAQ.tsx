@@ -17,7 +17,7 @@ const FAQ: React.FC = () => (
       />
       <QACard
         question='What does "blyat" mean?'
-        answer={`It's a universal and emotional word. Usually someone could use it when they are very frustrated or sad. There is also word "blyad" which means "whore" or "slut", but we won't talk about that`}
+        answer={`It's a universal and emotional word. Usually someone could use it when they are very frustrated or happy. There is also a word "blyad" which means "whore", but we won't talk about that.`}
       />
       <QACard
         question='Why does this project exist?'
