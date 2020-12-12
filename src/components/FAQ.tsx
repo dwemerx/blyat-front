@@ -81,7 +81,7 @@ const GIB_MOR_ANSWER = () => (
       className='text-blue-500 hover:text-blue-700'
       href='https://github.com/DIYgod/RSSHub-Radar'
     >
-      RSS Radar
+      RSSHub Radar
     </a>
     , which is a browser extension that helps discovering official feeds.
   </div>
