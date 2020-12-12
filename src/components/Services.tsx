@@ -77,6 +77,7 @@ const Services: React.FC = () => (
       sourceLink='https://github.com/leafac/kill-the-newsletter.com'
       mainInstanceLink='https://kill-the-newsletter.com/'
     />
+    <div className='relative mt-4 text-xl sm:mt-0'>Check out FAQ for more</div>
   </div>
 );
 
